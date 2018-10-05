@@ -1,0 +1,3379 @@
+{
+   "type" : "Feature Collection",
+    "features" : [
+         { "type" : "Feature",
+        "id" : 1,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "1554", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 2,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "3326", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 3,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.700875","42.2450432"]},
+        "properties" : { "address" : "1 Packard", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 4,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7420009","42.2778232"]},
+        "properties" : { "address" : "10 Maynard St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 5,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7355997","42.283023"]},
+        "properties" : { "address" : "1000 Catherine St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 6,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7376307","42.2699571"]},
+        "properties" : { "address" : "1000 Oakland Ave. #310", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 7,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7376699","42.270501"]},
+        "properties" : { "address" : "1001 Oakland Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 8,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7355757","42.2830244"]},
+        "properties" : { "address" : "1004 Catherine St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 9,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7367157","42.2833579"]},
+        "properties" : { "address" : "1005 Catherine St.", "count" : "36"}
+        },
+         { "type" : "Feature",
+        "id" : 10,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7367157","42.2833579"]},
+        "properties" : { "address" : "1005 E. Catherine St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 11,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6928536","42.2880624"]},
+        "properties" : { "address" : "1005 Green St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 12,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7368045","42.2816102"]},
+        "properties" : { "address" : "1007 E. Huron St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 13,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7350539","42.2649608"]},
+        "properties" : { "address" : "1008 Woodlawn Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 14,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7366453","42.2833603"]},
+        "properties" : { "address" : "1009 Catherine St.", "count" : "156"}
+        },
+         { "type" : "Feature",
+        "id" : 15,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.736671","42.282488"]},
+        "properties" : { "address" : "1009 E. Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 16,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7366453","42.2833603"]},
+        "properties" : { "address" : "1009 E. Catherine St.", "count" : "13"}
+        },
+         { "type" : "Feature",
+        "id" : 17,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7396515","42.2802713"]},
+        "properties" : { "address" : "101 S. Thayer St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 18,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7403018","42.2693067"]},
+        "properties" : { "address" : "1011 S. State St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 19,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7349014","42.2649594"]},
+        "properties" : { "address" : "1014 Woodlawn Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 20,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7365389","42.283364"]},
+        "properties" : { "address" : "1015 Catherine St.", "count" : "87"}
+        },
+         { "type" : "Feature",
+        "id" : 21,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7365389","42.283364"]},
+        "properties" : { "address" : "1015 E. Catherine St.", "count" : "7"}
+        },
+         { "type" : "Feature",
+        "id" : 22,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7364732","42.2833661"]},
+        "properties" : { "address" : "1017 1/2 Catherine St.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 23,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7364732","42.2833661"]},
+        "properties" : { "address" : "1017 Catherine St.", "count" : "18"}
+        },
+         { "type" : "Feature",
+        "id" : 24,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7364732","42.2833661"]},
+        "properties" : { "address" : "1017 E. Catherine St.", "count" : "13"}
+        },
+         { "type" : "Feature",
+        "id" : 25,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7372179","42.2704892"]},
+        "properties" : { "address" : "1017 Oakland Ave.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 26,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "102 and 133 Tyler House EQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 27,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7363403","42.2833705"]},
+        "properties" : { "address" : "1021 Catherine St.", "count" : "6"}
+        },
+         { "type" : "Feature",
+        "id" : 28,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7469061","42.2708148"]},
+        "properties" : { "address" : "1021 S. Greene St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 29,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735432","42.288178"]},
+        "properties" : { "address" : "1025 Wall St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 30,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7366219","42.269953"]},
+        "properties" : { "address" : "1026 Oakland Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 31,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.736141","42.2833772"]},
+        "properties" : { "address" : "1027 Catherine St.", "count" : "46"}
+        },
+         { "type" : "Feature",
+        "id" : 32,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.736141","42.2833772"]},
+        "properties" : { "address" : "1027 E. Catherine St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 33,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7469666","42.2885074"]},
+        "properties" : { "address" : "105 E. Summit", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 34,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7469666","42.2885074"]},
+        "properties" : { "address" : "105 E. Summit St.", "count" : "9"}
+        },
+         { "type" : "Feature",
+        "id" : 35,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7469666","42.2885074"]},
+        "properties" : { "address" : "105 Summit St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 36,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7347901","42.2871975"]},
+        "properties" : { "address" : "1050 E. Wall St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 37,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7347901","42.2871975"]},
+        "properties" : { "address" : "1050 Wall St.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 38,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.734359","42.287854"]},
+        "properties" : { "address" : "1055 Wall St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 39,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7352421","42.2835239"]},
+        "properties" : { "address" : "1075 Catherine St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 40,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7490573","42.2835076"]},
+        "properties" : { "address" : "108 Miller Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 41,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7257114","42.2677146"]},
+        "properties" : { "address" : "1082 Ferdon Rd.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 42,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7394871","42.2816315"]},
+        "properties" : { "address" : "110 N. Thayer St. Apt #3", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 43,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7355179","42.2822442"]},
+        "properties" : { "address" : "1102 E. Ann St.", "count" : "237"}
+        },
+         { "type" : "Feature",
+        "id" : 44,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7355179","42.2822442"]},
+        "properties" : { "address" : "1102 E. Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 45,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7298103","42.268415"]},
+        "properties" : { "address" : "1102 Lincoln Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 46,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7298103","42.268415"]},
+        "properties" : { "address" : "1102 Lincoln St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 47,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7354299","42.2700419"]},
+        "properties" : { "address" : "1102 Oakland Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 48,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7354098","42.2813058"]},
+        "properties" : { "address" : "1103 E. Huron St.", "count" : "86"}
+        },
+         { "type" : "Feature",
+        "id" : 49,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7298102","42.2684116"]},
+        "properties" : { "address" : "1104 Lincoln", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 50,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7350977","42.2687353"]},
+        "properties" : { "address" : "1107 Prospect St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 51,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7350626","42.2835286"]},
+        "properties" : { "address" : "1109 E. Catherine St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 52,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7349306","42.2687579"]},
+        "properties" : { "address" : "1109 Prospect St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 53,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742483","42.274878"]},
+        "properties" : { "address" : "111 Allen-Rumsey House West Quadrangle", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 54,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7348221","42.2672994"]},
+        "properties" : { "address" : "1113 Michigan Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 55,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7349515","42.2835315"]},
+        "properties" : { "address" : "1115 E. Catherine St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 56,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7361342","42.2855982"]},
+        "properties" : { "address" : "1116 Fuller St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 57,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7350311","42.2750022"]},
+        "properties" : { "address" : "1118 S. University Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 58,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.73408","42.282007"]},
+        "properties" : { "address" : "1126 E. Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 59,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7335826","42.28322"]},
+        "properties" : { "address" : "1136 Catherine St.", "count" : "34"}
+        },
+         { "type" : "Feature",
+        "id" : 60,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7335826","42.28322"]},
+        "properties" : { "address" : "1136 E. Catherine St.", "count" : "36"}
+        },
+         { "type" : "Feature",
+        "id" : 61,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7487018","42.2716937"]},
+        "properties" : { "address" : "114 Hill St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 62,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7381467","42.2818116"]},
+        "properties" : { "address" : "114 N. Ingalls", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 63,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7341927","42.2904498"]},
+        "properties" : { "address" : "1144 Neelson Ct. #7", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 64,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7467405","42.2880326"]},
+        "properties" : { "address" : "116 E. Summit St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 65,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7350565","42.2836793"]},
+        "properties" : { "address" : "116 Victor Vaughn", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 66,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747664","42.282576"]},
+        "properties" : { "address" : "117 E. Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 67,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7399676","42.2818796"]},
+        "properties" : { "address" : "119 N. Thayer", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 68,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7543743","42.2824316"]},
+        "properties" : { "address" : "119 Park Terrace", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 69,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7465815","42.2879572"]},
+        "properties" : { "address" : "120 E. Summit St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 70,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7479079","42.2814466"]},
+        "properties" : { "address" : "120 N Main St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 71,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7334351","42.2823051"]},
+        "properties" : { "address" : "1200 E. Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 72,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7490997","42.2695434"]},
+        "properties" : { "address" : "121 Hoover St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 73,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7355965","42.2908503"]},
+        "properties" : { "address" : "1210 Broadway", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 74,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7355965","42.2908503"]},
+        "properties" : { "address" : "1210 Broadway St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 75,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7340919","42.2739438"]},
+        "properties" : { "address" : "1211 Willard St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 76,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7351928","42.2654681"]},
+        "properties" : { "address" : "1214 Packard", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 77,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7351928","42.2654681"]},
+        "properties" : { "address" : "1214 Packard St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 78,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7475596","42.2802935"]},
+        "properties" : { "address" : "122 E. Washington St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 79,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6234079","42.237624"]},
+        "properties" : { "address" : "122 Hawkins St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 80,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6563654","42.1509986"]},
+        "properties" : { "address" : "122 Reynolds St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 81,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "122 Tyler House EQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 82,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.764295","42.281268"]},
+        "properties" : { "address" : "1220 E Washington St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 83,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7390637","42.266289"]},
+        "properties" : { "address" : "1237 White St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 84,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7433917","42.2821643"]},
+        "properties" : { "address" : "126 N. Division St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 85,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7484742","42.2823502"]},
+        "properties" : { "address" : "13 E. Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 86,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7401836","42.2651618"]},
+        "properties" : { "address" : "1309 S. State St.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 87,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7476951","42.2720282"]},
+        "properties" : { "address" : "131 Adams", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 88,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7476951","42.2720282"]},
+        "properties" : { "address" : "131 Adams Ave.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 89,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746768","42.29669"]},
+        "properties" : { "address" : "1315 N. Main St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 90,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.732589","42.276034"]},
+        "properties" : { "address" : "1317 Washtenaw Ave; 301 - 14 St.; Corner of St. and Madison; 113 - 14 St", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 91,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7321267","42.2671445"]},
+        "properties" : { "address" : "1319 Wells St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 92,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7482624","42.2714727"]},
+        "properties" : { "address" : "132 Hill St.", "count" : "49"}
+        },
+         { "type" : "Feature",
+        "id" : 93,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.732421","42.278261"]},
+        "properties" : { "address" : "1320 Volland", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 94,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.732065","42.278271"]},
+        "properties" : { "address" : "1324 Volland St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 95,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7319349","42.276359"]},
+        "properties" : { "address" : "1325 Washtenaw Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 96,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.732494","42.275492"]},
+        "properties" : { "address" : "1328 Washtenaw in '29 stud direc.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 97,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.731788","42.275803"]},
+        "properties" : { "address" : "1333 Washtenaw Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 98,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7317815","42.2776799"]},
+        "properties" : { "address" : "1335 Geddes Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 99,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7401608","42.2643981"]},
+        "properties" : { "address" : "1335 S. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 100,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7401608","42.2643981"]},
+        "properties" : { "address" : "1335 State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 101,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7321313","42.2753608"]},
+        "properties" : { "address" : "1338 Washtenaw Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 102,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.731576","42.278249"]},
+        "properties" : { "address" : "1340 Volland St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 103,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.731576","42.278249"]},
+        "properties" : { "address" : "1340 Volland St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 104,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477045","42.2718836"]},
+        "properties" : { "address" : "135 Adams Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 105,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477045","42.2718836"]},
+        "properties" : { "address" : "135 Adams St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 106,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7481392","42.2718578"]},
+        "properties" : { "address" : "139 Hill St.", "count" : "6"}
+        },
+         { "type" : "Feature",
+        "id" : 107,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7288791","42.2808891"]},
+        "properties" : { "address" : "1412 Markley", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 108,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7288791","42.2808891"]},
+        "properties" : { "address" : "1417 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 109,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7300889","42.2750712"]},
+        "properties" : { "address" : "1439 University Terrace", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 110,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477884","42.2714984"]},
+        "properties" : { "address" : "144 Hill St.", "count" : "114"}
+        },
+         { "type" : "Feature",
+        "id" : 111,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7300743","42.2750715"]},
+        "properties" : { "address" : "1449 University Terrace", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 112,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6855188","42.0918646"]},
+        "properties" : { "address" : "146 Phillip", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 113,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6855188","42.0918646"]},
+        "properties" : { "address" : "146 Phillips St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 114,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7310622","42.2750552"]},
+        "properties" : { "address" : "1462 University Terrace #235", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 115,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7310337","42.2750555"]},
+        "properties" : { "address" : "1468 University Terrace", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 116,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7475586","42.2718689"]},
+        "properties" : { "address" : "149 Hill St.", "count" : "11"}
+        },
+         { "type" : "Feature",
+        "id" : 117,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.729554","42.2702162"]},
+        "properties" : { "address" : "1502 Cambridge Rd.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 118,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.728596","42.2737439"]},
+        "properties" : { "address" : "1523 Washtenaw Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 119,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313851","42.2786606"]},
+        "properties" : { "address" : "1529 Stockwell Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 120,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6826497","42.318027"]},
+        "properties" : { "address" : "1531 Lloyd House", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 121,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7273661","42.2760124"]},
+        "properties" : { "address" : "1624 Geddes Rd.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 122,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7489991","42.2740731"]},
+        "properties" : { "address" : "17 Madison Pl.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 123,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7501144","42.257042"]},
+        "properties" : { "address" : "1700 Main St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 124,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7186795","42.2979528"]},
+        "properties" : { "address" : "1738 Murfin Ave. #25", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 125,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7384359","42.2812616"]},
+        "properties" : { "address" : "18 Ingalls St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 126,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6926042","42.2999734"]},
+        "properties" : { "address" : "1805 Village Green Ln.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 127,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747261","42.2813743"]},
+        "properties" : { "address" : "19 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 128,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7236826","42.2757512"]},
+        "properties" : { "address" : "1917 Geddes Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 129,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7222858","42.2689395"]},
+        "properties" : { "address" : "1922 Lorraine Pl.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 130,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7233501","42.2756987"]},
+        "properties" : { "address" : "1923 Geddes Ave.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 131,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7233501","42.2756987"]},
+        "properties" : { "address" : "1923 Geddes Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 132,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.74064","42.2823035"]},
+        "properties" : { "address" : "200 N. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 133,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313851","42.2786606"]},
+        "properties" : { "address" : "2027 Stockwell", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 134,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7459817","42.2824264"]},
+        "properties" : { "address" : "204 N. 5th Ave", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 135,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7508522","42.2982977"]},
+        "properties" : { "address" : "206 14th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 136,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6156179","42.2491375"]},
+        "properties" : { "address" : "206 Forest Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 137,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735379","42.282522"]},
+        "properties" : { "address" : "206 Glen Ave.", "count" : "21"}
+        },
+         { "type" : "Feature",
+        "id" : 138,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7474067","42.269461"]},
+        "properties" : { "address" : "206 Hoover Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 139,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7311106","42.2816015"]},
+        "properties" : { "address" : "208 Observatory", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 140,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7350565","42.2836793"]},
+        "properties" : { "address" : "208 Victor Vaughan House", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 141,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7404582","42.2799007"]},
+        "properties" : { "address" : "209 S. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 142,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7442006","42.2761877"]},
+        "properties" : { "address" : "21 E. Jefferson St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 143,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7693146","42.2575642"]},
+        "properties" : { "address" : "21 Havner Square?", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 144,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.759635","42.2755897"]},
+        "properties" : { "address" : "21 Jefferson St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 145,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735381","42.282642"]},
+        "properties" : { "address" : "210 Glen Ave.", "count" : "93"}
+        },
+         { "type" : "Feature",
+        "id" : 146,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735381","42.282642"]},
+        "properties" : { "address" : "210 N. Glen Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 147,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "2100 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 148,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.718887","42.2652297"]},
+        "properties" : { "address" : "2107 S. Washtenaw", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 149,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.718887","42.2652297"]},
+        "properties" : { "address" : "2107 Washtenaw Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 150,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7385081","42.2826088"]},
+        "properties" : { "address" : "211 S. Ingalls St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 151,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7467778","42.2821933"]},
+        "properties" : { "address" : "212 14 St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 152,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "212 14th St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 153,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7353798","42.2825283"]},
+        "properties" : { "address" : "212 Glen Ave.", "count" : "18"}
+        },
+         { "type" : "Feature",
+        "id" : 154,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "212 Greene Hse EQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 155,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6522759","42.262921"]},
+        "properties" : { "address" : "212 Kurt?", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 156,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7457296","42.2826894"]},
+        "properties" : { "address" : "212 N. 5th Ave.", "count" : "47"}
+        },
+         { "type" : "Feature",
+        "id" : 157,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7457296","42.2826894"]},
+        "properties" : { "address" : "212 N. 5th St.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 158,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7457296","42.2826894"]},
+        "properties" : { "address" : "212 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 159,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "212 S. 14th St.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 160,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.741333","42.27971"]},
+        "properties" : { "address" : "212 State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 161,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "2124 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 162,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "2125 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 163,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7465642","42.2858358"]},
+        "properties" : { "address" : "213 Beakes St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 164,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7358698","42.2827218"]},
+        "properties" : { "address" : "213 Glen Ave.", "count" : "9"}
+        },
+         { "type" : "Feature",
+        "id" : 165,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7385115","42.2826726"]},
+        "properties" : { "address" : "214 S. Ingalls St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 166,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7463029","42.2827792"]},
+        "properties" : { "address" : "215 N. 5th Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 167,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "215 Strauss East Quadrangle", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 168,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7358897","42.2829952"]},
+        "properties" : { "address" : "217 Glen Ave.", "count" : "27"}
+        },
+         { "type" : "Feature",
+        "id" : 169,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.751175","42.2830586"]},
+        "properties" : { "address" : "217 N 1 St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 170,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7353802","42.2825346"]},
+        "properties" : { "address" : "218 Glen Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 171,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7358523","42.282498"]},
+        "properties" : { "address" : "219 Glen Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 172,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7385206","42.2828448"]},
+        "properties" : { "address" : "219 S. Ingalls St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 173,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742483","42.274878"]},
+        "properties" : { "address" : "220 Wenley House WQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 174,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.739958","42.279438"]},
+        "properties" : { "address" : "224 S.Thayer St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 175,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7378467","42.2794992"]},
+        "properties" : { "address" : "227 S. Ingalls St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 176,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.741235","42.27465"]},
+        "properties" : { "address" : "236 S 12th Ann Arbor Sigma Chi", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 177,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7303399","42.2806819"]},
+        "properties" : { "address" : "239 Vaughan House", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 178,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.728886","42.280909"]},
+        "properties" : { "address" : "2415. 2436 Little House Mary Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 179,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.728886","42.280909"]},
+        "properties" : { "address" : "2432 Little House Mary Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 180,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7290869","42.2808504"]},
+        "properties" : { "address" : "2436 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 181,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "25 14th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 182,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7439096","42.2812701"]},
+        "properties" : { "address" : "28 S. Division", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 183,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7522922","42.2760271"]},
+        "properties" : { "address" : "2nd St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 184,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.721604","42.275983"]},
+        "properties" : { "address" : "3 Harvard Place", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 185,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.731689","42.278551"]},
+        "properties" : { "address" : "3 Volland St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 186,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.731689","42.278551"]},
+        "properties" : { "address" : "3 Volland St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 187,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7480308","42.2813984"]},
+        "properties" : { "address" : "30 Huron St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 188,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746113","42.2760472"]},
+        "properties" : { "address" : "300 E. Jefferson St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 189,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.745991","42.2822799"]},
+        "properties" : { "address" : "301 - 14 St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 190,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7457275","42.2818297"]},
+        "properties" : { "address" : "301 14th St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 191,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7508522","42.2982977"]},
+        "properties" : { "address" : "301 S. 14th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 192,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "302 Strauss East Quadrangle", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 193,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "302 Strauss House East Quadrangle", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 194,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7461466","42.2794222"]},
+        "properties" : { "address" : "304 S. 5th Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 195,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7455713","42.2862867"]},
+        "properties" : { "address" : "305 Beakes St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 196,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313851","42.2786606"]},
+        "properties" : { "address" : "3054 Stockwell Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 197,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7358688","42.2827048"]},
+        "properties" : { "address" : "311 Glen Ave.", "count" : "48"}
+        },
+         { "type" : "Feature",
+        "id" : 198,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.744874","42.286124"]},
+        "properties" : { "address" : "312 Beakes St.", "count" : "7"}
+        },
+         { "type" : "Feature",
+        "id" : 199,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742483","42.274878"]},
+        "properties" : { "address" : "315 Lloyd House West Quadrangle", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 200,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7400108","42.283623"]},
+        "properties" : { "address" : "317 N. Thayer St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 201,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6146112","42.2456373"]},
+        "properties" : { "address" : "317 N. Washington (Ypsilanti)", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 202,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.743632","42.2869816"]},
+        "properties" : { "address" : "318 Beakes St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 203,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7454122","42.2759664"]},
+        "properties" : { "address" : "318 E. Jefferson St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 204,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742483","42.274878"]},
+        "properties" : { "address" : "319 Chicago Hse WQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 205,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7434535","42.2787257"]},
+        "properties" : { "address" : "320 Thompson St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 206,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "3207 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 207,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "3209 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 208,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7420112","42.2786762"]},
+        "properties" : { "address" : "322 Maynard", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 209,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7434599","42.2786358"]},
+        "properties" : { "address" : "324 Thompson St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 210,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7445127","42.2863628"]},
+        "properties" : { "address" : "326 Beakes Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 211,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7445127","42.2863628"]},
+        "properties" : { "address" : "326 Beakes St.", "count" : "21"}
+        },
+         { "type" : "Feature",
+        "id" : 212,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7497545","42.2814434"]},
+        "properties" : { "address" : "33 Ashley St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 213,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.72893","42.281091"]},
+        "properties" : { "address" : "3326 Elliot Mary Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 214,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7445588","42.2867256"]},
+        "properties" : { "address" : "333 Beakes St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 215,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7443757","42.2824427"]},
+        "properties" : { "address" : "335 E. Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 216,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7444035","42.2868398"]},
+        "properties" : { "address" : "337 Beakes St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 217,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7290869","42.2808504"]},
+        "properties" : { "address" : "3412 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 218,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7288791","42.2808891"]},
+        "properties" : { "address" : "3417 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 219,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7350565","42.2836793"]},
+        "properties" : { "address" : "347 Victor Vaughn", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 220,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7391895","42.2355449"]},
+        "properties" : { "address" : "3558 State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 221,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7793089","42.2328017"]},
+        "properties" : { "address" : "3612 SQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 222,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7483079","42.2848685"]},
+        "properties" : { "address" : "37 E. Kingsley St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 223,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7405396","42.2814316"]},
+        "properties" : { "address" : "4 N. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 224,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7254743","42.2764243"]},
+        "properties" : { "address" : "40 Geddes Ave", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 225,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.731281","42.278192"]},
+        "properties" : { "address" : "402 Observatory St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 226,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.731281","42.278192"]},
+        "properties" : { "address" : "402 S. Observatory St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 227,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-84.0108834","42.3119762"]},
+        "properties" : { "address" : "406 Wenley House W.Q.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 228,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7433088","42.2850251"]},
+        "properties" : { "address" : "407 E. Kingsley St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 229,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7361497","42.2882455"]},
+        "properties" : { "address" : "41 Wall St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 230,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7434769","42.2792402"]},
+        "properties" : { "address" : "410 E. Liberty St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 231,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7413022","42.2842316"]},
+        "properties" : { "address" : "411 N. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 232,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7425259","42.2748777"]},
+        "properties" : { "address" : "413 Adams House West Quadrangle", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 233,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742483","42.274878"]},
+        "properties" : { "address" : "413 Chicago Hse WQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 234,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.734455","42.277077"]},
+        "properties" : { "address" : "415 Church St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 235,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "415 Mosher Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 236,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742483","42.274878"]},
+        "properties" : { "address" : "417 Lloyd WQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 237,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7428336","42.2836736"]},
+        "properties" : { "address" : "418 Lawrence Apt #2", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 238,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7413346","42.2844862"]},
+        "properties" : { "address" : "419 N. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 239,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "420 Anderson House East Quadrangle", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 240,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7415652","42.2772944"]},
+        "properties" : { "address" : "420 S. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 241,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7435079","42.2720747"]},
+        "properties" : { "address" : "425 Hill St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 242,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7435079","42.2720747"]},
+        "properties" : { "address" : "425 Hill St. #304", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 243,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.741994","42.277047"]},
+        "properties" : { "address" : "426 Maynard in 21-22; B.Barbour in 22-23", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 244,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.738104","42.284921"]},
+        "properties" : { "address" : "426 N Ingalls St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 245,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "430 Greene House EQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 246,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.751837","42.2920593"]},
+        "properties" : { "address" : "430 Hunt House SQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 247,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7912162","42.2231682"]},
+        "properties" : { "address" : "4312 SQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 248,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7419941","42.2774418"]},
+        "properties" : { "address" : "433 Maynard St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 249,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7439255","42.2764775"]},
+        "properties" : { "address" : "439 S. Division", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 250,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7486912","42.2779645"]},
+        "properties" : { "address" : "44 E. William St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 251,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7486912","42.2779645"]},
+        "properties" : { "address" : "44 William St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 252,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7508147","42.2765972"]},
+        "properties" : { "address" : "441 1st St. #207", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 253,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7290869","42.2808504"]},
+        "properties" : { "address" : "4431 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 254,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7354753","42.2748956"]},
+        "properties" : { "address" : "445 E. University Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 255,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "4508 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 256,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "4515 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 257,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747261","42.2813743"]},
+        "properties" : { "address" : "47 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 258,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746111","42.2849765"]},
+        "properties" : { "address" : "501 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 259,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7352044","42.2853184"]},
+        "properties" : { "address" : "501 Glen Ave.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 260,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746111","42.2849765"]},
+        "properties" : { "address" : "501 N. 5th St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 261,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313851","42.2786606"]},
+        "properties" : { "address" : "5015 Stockwell Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 262,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7428174","42.2739194"]},
+        "properties" : { "address" : "502 E. Madison", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 263,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7428174","42.2739194"]},
+        "properties" : { "address" : "502 E. Madison St.", "count" : "26"}
+        },
+         { "type" : "Feature",
+        "id" : 264,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7456775","42.2849571"]},
+        "properties" : { "address" : "502 N. 5th St.", "count" : "57"}
+        },
+         { "type" : "Feature",
+        "id" : 265,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7456775","42.2849571"]},
+        "properties" : { "address" : "502 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 266,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7433086","42.2720733"]},
+        "properties" : { "address" : "503 Hill St. #304", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 267,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "504 Mosher Jordan Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 268,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7467953","42.2850498"]},
+        "properties" : { "address" : "504 N. 4th St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 269,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7456193","42.2850815"]},
+        "properties" : { "address" : "504 N. 5th St.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 270,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7456193","42.2850815"]},
+        "properties" : { "address" : "504 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 271,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7425452","42.2828338"]},
+        "properties" : { "address" : "506 E. Catherine St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 272,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7352029","42.2853196"]},
+        "properties" : { "address" : "507 Glen Ave.", "count" : "22"}
+        },
+         { "type" : "Feature",
+        "id" : 273,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7427567","42.2739192"]},
+        "properties" : { "address" : "508 E. Madison St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 274,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746811","42.285242"]},
+        "properties" : { "address" : "508 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 275,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "510 Cheever Ct.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 276,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7460488","42.2852341"]},
+        "properties" : { "address" : "511 N. 5th  St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 277,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7460488","42.2852341"]},
+        "properties" : { "address" : "511 N. 5th St.", "count" : "8"}
+        },
+         { "type" : "Feature",
+        "id" : 278,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7407183","42.2758671"]},
+        "properties" : { "address" : "512 S. State St.", "count" : "6"}
+        },
+         { "type" : "Feature",
+        "id" : 279,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7457072","42.2853617"]},
+        "properties" : { "address" : "514 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 280,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7334364","42.2759322"]},
+        "properties" : { "address" : "514 S. Forest", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 281,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7445112","42.2852102"]},
+        "properties" : { "address" : "516 Detroit St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 282,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7426962","42.2739189"]},
+        "properties" : { "address" : "516 E. Madison St.", "count" : "9"}
+        },
+         { "type" : "Feature",
+        "id" : 283,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7455879","42.2854594"]},
+        "properties" : { "address" : "518 N. 5th St.", "count" : "10"}
+        },
+         { "type" : "Feature",
+        "id" : 284,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7473114","42.2851712"]},
+        "properties" : { "address" : "519 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 285,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.744365","42.285272"]},
+        "properties" : { "address" : "520 Detroit St.", "count" : "6"}
+        },
+         { "type" : "Feature",
+        "id" : 286,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742666","42.2739187"]},
+        "properties" : { "address" : "520 E. Madison", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 287,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7455822","42.2855574"]},
+        "properties" : { "address" : "520 N. 5th St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 288,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7428445","42.2726291"]},
+        "properties" : { "address" : "520 Packard Rd. #7", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 289,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7460195","42.2856578"]},
+        "properties" : { "address" : "521 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 290,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "5224 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 291,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7420717","42.2711822"]},
+        "properties" : { "address" : "525 Benjamin St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 292,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7455719","42.2857496"]},
+        "properties" : { "address" : "526 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 293,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7422725","42.2724402"]},
+        "properties" : { "address" : "528 Packard", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 294,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7422725","42.2724402"]},
+        "properties" : { "address" : "528 Packard St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 295,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7487957","42.2827547"]},
+        "properties" : { "address" : "53 1/2 N. Main St.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 296,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7456072","42.2858733"]},
+        "properties" : { "address" : "530 N. 5th St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 297,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7307978","42.2758739"]},
+        "properties" : { "address" : "536 Elm St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 298,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "5407 Couzens Hall", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 299,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7288791","42.2808891"]},
+        "properties" : { "address" : "5414 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 300,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7290869","42.2808504"]},
+        "properties" : { "address" : "5429 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 301,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.743579","42.2744967"]},
+        "properties" : { "address" : "544 Thompson St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 302,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "546 Mosher Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 303,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "547 Mosher Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 304,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.741716","42.2858604"]},
+        "properties" : { "address" : "548 Elizabeth St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 305,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7353366","42.275175"]},
+        "properties" : { "address" : "549 E. University Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 306,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313851","42.2786606"]},
+        "properties" : { "address" : "5509 Stockwell Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 307,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "5512 Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 308,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.741268","42.274399"]},
+        "properties" : { "address" : "556 S. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 309,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7484392","42.2832591"]},
+        "properties" : { "address" : "57 Miller Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 310,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7465382","42.2717347"]},
+        "properties" : { "address" : "5th St. and Hill St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 311,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.3104454","42.3516498"]},
+        "properties" : { "address" : "6 13th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 312,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7484742","42.2823502"]},
+        "properties" : { "address" : "6 Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 313,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7406619","42.2732958"]},
+        "properties" : { "address" : "6 Monroe Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 314,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7460434","42.2861863"]},
+        "properties" : { "address" : "603 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 315,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "603 Oxford Rd. Cheever #63", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 316,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7418455","42.2741826"]},
+        "properties" : { "address" : "604 E. Madison", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 317,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7418455","42.2741826"]},
+        "properties" : { "address" : "604 E. Madison St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 318,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7413134","42.272079"]},
+        "properties" : { "address" : "607 Hill St. #6", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 319,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7418028","42.2741833"]},
+        "properties" : { "address" : "608 E. Madison St.", "count" : "6"}
+        },
+         { "type" : "Feature",
+        "id" : 320,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7405433","42.2865792"]},
+        "properties" : { "address" : "608 Fuller St.", "count" : "14"}
+        },
+         { "type" : "Feature",
+        "id" : 321,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7461019","42.286481"]},
+        "properties" : { "address" : "609 N. 5th St.", "count" : "13"}
+        },
+         { "type" : "Feature",
+        "id" : 322,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747294","42.2857978"]},
+        "properties" : { "address" : "611 N. 4th St.", "count" : "6"}
+        },
+         { "type" : "Feature",
+        "id" : 323,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747294","42.2857978"]},
+        "properties" : { "address" : "611 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 324,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7417828","42.2741833"]},
+        "properties" : { "address" : "612 E. Madison", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 325,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7417828","42.2741833"]},
+        "properties" : { "address" : "612 E. Madison St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 326,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7554453","42.2741339"]},
+        "properties" : { "address" : "612 Madison", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 327,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7458235","42.2865583"]},
+        "properties" : { "address" : "613 N. 5th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 328,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7395714","42.278653"]},
+        "properties" : { "address" : "613 S. Thayer St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 329,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.745288","42.286521"]},
+        "properties" : { "address" : "616 N. 5th St.", "count" : "10"}
+        },
+         { "type" : "Feature",
+        "id" : 330,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7472907","42.2859467"]},
+        "properties" : { "address" : "617 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 331,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7472907","42.2859467"]},
+        "properties" : { "address" : "617 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 332,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.741012","42.2715225"]},
+        "properties" : { "address" : "617 Packard St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 333,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7382241","42.2780436"]},
+        "properties" : { "address" : "619 Oxford Rd Goddard House", "count" : "9"}
+        },
+         { "type" : "Feature",
+        "id" : 334,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.732756","42.274285"]},
+        "properties" : { "address" : "621 Forest Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 335,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7503223","42.2732639"]},
+        "properties" : { "address" : "622 Ashley St.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 336,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7503223","42.2732639"]},
+        "properties" : { "address" : "622 S. Ashley", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 337,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7503223","42.2732639"]},
+        "properties" : { "address" : "622 S. Ashley St.", "count" : "17"}
+        },
+         { "type" : "Feature",
+        "id" : 338,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7253636","42.2744927"]},
+        "properties" : { "address" : "623 Oxford House", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 339,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7253636","42.2744927"]},
+        "properties" : { "address" : "623 Oxford Rd Goddard House", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 340,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7253636","42.2744927"]},
+        "properties" : { "address" : "623 Oxford Rd Vandenburg House", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 341,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7552685","42.2860414"]},
+        "properties" : { "address" : "625 Felch St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 342,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747356","42.28619"]},
+        "properties" : { "address" : "625 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 343,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7288791","42.2808891"]},
+        "properties" : { "address" : "6335 Markley Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 344,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7469744","42.2864953"]},
+        "properties" : { "address" : "635 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 345,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7469744","42.2864953"]},
+        "properties" : { "address" : "635 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 346,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7469744","42.2864953"]},
+        "properties" : { "address" : "635 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 347,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7267268","42.2738342"]},
+        "properties" : { "address" : "640 Oxford Rd.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 348,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747126","42.2868076"]},
+        "properties" : { "address" : "645 N. 4th St.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 349,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747126","42.2868076"]},
+        "properties" : { "address" : "645 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 350,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747121","42.286839"]},
+        "properties" : { "address" : "645 N. Fourth '34 stud direct", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 351,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7467712","42.2868546"]},
+        "properties" : { "address" : "646 N. 4th St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 352,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7410487","42.2729948"]},
+        "properties" : { "address" : "700 S. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 353,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.745113","42.286747"]},
+        "properties" : { "address" : "702 N. 5th Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 354,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.74063","42.2841081"]},
+        "properties" : { "address" : "707 Lawrence St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 355,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7454173","42.2870796"]},
+        "properties" : { "address" : "709 N. 5th ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 356,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7454173","42.2870796"]},
+        "properties" : { "address" : "709 N. 5th Ave", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 357,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7403998","42.2822453"]},
+        "properties" : { "address" : "711 Haven", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 358,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.740375","42.2850623"]},
+        "properties" : { "address" : "713 E. Kingsley St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 359,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7404662","42.2865521"]},
+        "properties" : { "address" : "714 Fuller St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 360,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746075","42.2874996"]},
+        "properties" : { "address" : "718 N 4 Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 361,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746075","42.2874996"]},
+        "properties" : { "address" : "718 N. 4th", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 362,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.746075","42.2874996"]},
+        "properties" : { "address" : "718 N. 4th St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 363,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.740222","42.27258"]},
+        "properties" : { "address" : "721 S. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 364,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7562059","42.2854554"]},
+        "properties" : { "address" : "724 Miller Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 365,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747257","42.288042"]},
+        "properties" : { "address" : "724 N. Main St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 366,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7398431","42.285199"]},
+        "properties" : { "address" : "727 E. Kingsley", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 367,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7398431","42.285199"]},
+        "properties" : { "address" : "727 E. Kingsley St.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 368,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7379957","42.2729288"]},
+        "properties" : { "address" : "731 Tappan", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 369,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7379957","42.2729288"]},
+        "properties" : { "address" : "731 Tappan St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 370,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7351871","42.2727689"]},
+        "properties" : { "address" : "733 E. University Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 371,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7474892","42.2882095"]},
+        "properties" : { "address" : "733 N. Main St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 372,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7406418","42.2720196"]},
+        "properties" : { "address" : "733 S. State St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 373,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7013667","42.28445"]},
+        "properties" : { "address" : "735 Haven", "count" : "27"}
+        },
+         { "type" : "Feature",
+        "id" : 374,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7395817","42.2862865"]},
+        "properties" : { "address" : "806 Fuller St.", "count" : "7"}
+        },
+         { "type" : "Feature",
+        "id" : 375,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7402712","42.2715455"]},
+        "properties" : { "address" : "807 S. State St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 376,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7395296","42.2862738"]},
+        "properties" : { "address" : "808 Fuller St.", "count" : "9"}
+        },
+         { "type" : "Feature",
+        "id" : 377,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477462","42.2712897"]},
+        "properties" : { "address" : "808 Green St.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 378,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477462","42.2712897"]},
+        "properties" : { "address" : "808 Greene St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 379,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7475707","42.2716765"]},
+        "properties" : { "address" : "809 Green St.", "count" : "18"}
+        },
+         { "type" : "Feature",
+        "id" : 380,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7475707","42.2716765"]},
+        "properties" : { "address" : "809 Greene St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 381,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.739353","42.2852453"]},
+        "properties" : { "address" : "809 Kingsley St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 382,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7394256","42.2862484"]},
+        "properties" : { "address" : "812 Fuller St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 383,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.740621","42.2712788"]},
+        "properties" : { "address" : "815 S. State St. #2", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 384,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7393215","42.286223"]},
+        "properties" : { "address" : "816 Fuller St.", "count" : "6"}
+        },
+         { "type" : "Feature",
+        "id" : 385,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477569","42.2711709"]},
+        "properties" : { "address" : "816 Green St.", "count" : "5"}
+        },
+         { "type" : "Feature",
+        "id" : 386,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477569","42.2711709"]},
+        "properties" : { "address" : "816 Greene St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 387,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7575207","42.2887627"]},
+        "properties" : { "address" : "817 W. Summit St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 388,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7478749","42.271043"]},
+        "properties" : { "address" : "818 Green St.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 389,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7475695","42.2716359"]},
+        "properties" : { "address" : "819 Green St.", "count" : "7"}
+        },
+         { "type" : "Feature",
+        "id" : 390,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7475693","42.2716278"]},
+        "properties" : { "address" : "821 Green St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 391,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7390428","42.286155"]},
+        "properties" : { "address" : "822 Fuller St.", "count" : "8"}
+        },
+         { "type" : "Feature",
+        "id" : 392,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747569","42.2716197"]},
+        "properties" : { "address" : "823 Green St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 393,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7478182","42.2707712"]},
+        "properties" : { "address" : "828 Green St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 394,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7369688","42.271006"]},
+        "properties" : { "address" : "831 Tappan Ct.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 395,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7478637","42.270755"]},
+        "properties" : { "address" : "834 Green St.", "count" : "25"}
+        },
+         { "type" : "Feature",
+        "id" : 396,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7478637","42.270755"]},
+        "properties" : { "address" : "834 Greene St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 397,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7354097","42.270697"]},
+        "properties" : { "address" : "841 E. University Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 398,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7383672","42.2858149"]},
+        "properties" : { "address" : "900 Fuller St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 399,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7380674","42.2681812"]},
+        "properties" : { "address" : "906 Packard Rd.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 400,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7381585","42.2857498"]},
+        "properties" : { "address" : "908 Fuller St.", "count" : "4"}
+        },
+         { "type" : "Feature",
+        "id" : 401,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477731","42.2700272"]},
+        "properties" : { "address" : "908 Green St.", "count" : "26"}
+        },
+         { "type" : "Feature",
+        "id" : 402,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7477731","42.2700272"]},
+        "properties" : { "address" : "908 Greene", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 403,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7376179","42.2652303"]},
+        "properties" : { "address" : "909 Woodlawn Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 404,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.747845","42.269923"]},
+        "properties" : { "address" : "910 Green St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 405,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7420881","42.2705749"]},
+        "properties" : { "address" : "912 Mary St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 406,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7415227","42.2706349"]},
+        "properties" : { "address" : "913 Mary St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 407,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7380185","42.2857203"]},
+        "properties" : { "address" : "914 Fuller St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 408,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7376936","42.2681848"]},
+        "properties" : { "address" : "914 Packard Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 409,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7475585","42.2712469"]},
+        "properties" : { "address" : "915 Green St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 410,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7380558","42.270849"]},
+        "properties" : { "address" : "915 Oakland Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 411,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.737287","42.2652551"]},
+        "properties" : { "address" : "915 Woodlawn Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 412,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7476241","42.2697266"]},
+        "properties" : { "address" : "916 Green St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 413,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7484313","42.2696804"]},
+        "properties" : { "address" : "917 Brown St.", "count" : "13"}
+        },
+         { "type" : "Feature",
+        "id" : 414,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7435481","42.2870124"]},
+        "properties" : { "address" : "920 Detroit St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 415,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7374788","42.2815749"]},
+        "properties" : { "address" : "921 E. Huron St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 416,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.736866","42.2652671"]},
+        "properties" : { "address" : "921 Woodlawn Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 417,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7368537","42.264895"]},
+        "properties" : { "address" : "922 Woodlawn Ave.", "count" : "45"}
+        },
+         { "type" : "Feature",
+        "id" : 418,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7367035","42.2652815"]},
+        "properties" : { "address" : "923 Woodlawn Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 419,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7366368","42.2786787"]},
+        "properties" : { "address" : "925 N. University Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 420,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7362682","42.2652631"]},
+        "properties" : { "address" : "929 Woodlaw Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 421,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7362682","42.2652631"]},
+        "properties" : { "address" : "929 Woodlawn Ave.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 422,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7364034","42.2649135"]},
+        "properties" : { "address" : "930 Woodlawn Ave.", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 423,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7361173","42.2652832"]},
+        "properties" : { "address" : "933 Woodlawn Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 424,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7362435","42.2649372"]},
+        "properties" : { "address" : "934 Woodlawn Ave.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 425,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7366748","42.289066"]},
+        "properties" : { "address" : "942 Maiden Lane", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 426,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7361159","42.2649121"]},
+        "properties" : { "address" : "942 Woodlawn Ave.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 427,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7359599","42.264909"]},
+        "properties" : { "address" : "944 Woodlawn Ave.", "count" : "9"}
+        },
+         { "type" : "Feature",
+        "id" : 428,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7359486","42.2652601"]},
+        "properties" : { "address" : "945 Woodlawn Ave.", "count" : "11"}
+        },
+         { "type" : "Feature",
+        "id" : 429,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7358315","42.265275"]},
+        "properties" : { "address" : "947 Woodlawn Ave.", "count" : "12"}
+        },
+         { "type" : "Feature",
+        "id" : 430,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7317627","42.2812663"]},
+        "properties" : { "address" : "Alice Lloyd Hall Hinsdale Hse Rm. 4074S", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 431,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7415051","42.2814614"]},
+        "properties" : { "address" : "Allen Rumsey", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 432,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7348568","42.2960814"]},
+        "properties" : { "address" : "AME Church", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 433,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7317627","42.2812663"]},
+        "properties" : { "address" : "Angell House", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 434,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7502743","42.2824166"]},
+        "properties" : { "address" : "Ann St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 435,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "Apt. 1 VEHP?", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 436,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7209755","42.293721"]},
+        "properties" : { "address" : "Bursley Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 437,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7421033","42.2736688"]},
+        "properties" : { "address" : "Bush House SQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 438,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7403103","42.2830109"]},
+        "properties" : { "address" : "Catherine St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 439,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "Communted from Detroit", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 440,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "corner of 13th St. and Hickory St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 441,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "Corner of 14th St. and Washington St.", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 442,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7474224","42.2779164"]},
+        "properties" : { "address" : "Corner of 4th St. and William St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 443,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7385316","42.2830515"]},
+        "properties" : { "address" : "Corner of Catherine and Ingalls", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 444,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7408977","42.2811874"]},
+        "properties" : { "address" : "Corner of State St. and Huron St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 445,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7408977","42.2811874"]},
+        "properties" : { "address" : "Corner of State St. and Huron St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 446,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7325729","42.2819168"]},
+        "properties" : { "address" : "Couzens Hall", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 447,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "Diss topic not on main", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 448,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7425259","42.2748777"]},
+        "properties" : { "address" : "Dorm 3 West Lodge", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 449,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7427607","42.2701796"]},
+        "properties" : { "address" : "Fletcher Hall", "count" : "2"}
+        },
+         { "type" : "Feature",
+        "id" : 450,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7870763","42.3084455"]},
+        "properties" : { "address" : "Hickory St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 451,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.735252","42.27295"]},
+        "properties" : { "address" : "Hinsdale Hse EQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 452,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7421435","42.2736809"]},
+        "properties" : { "address" : "Hunt House", "count" : ""}
+        },
+         { "type" : "Feature",
+        "id" : 453,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7411794","42.2811886"]},
+        "properties" : { "address" : "Huron St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 454,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "Jordan Hall", "count" : "3"}
+        },
+         { "type" : "Feature",
+        "id" : 455,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7393943","42.2747203"]},
+        "properties" : { "address" : "Law Club", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 456,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7393943","42.2747203"]},
+        "properties" : { "address" : "Lawyers' Club", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 457,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "Lawyers' Club (John D. Cook)", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 458,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.742483","42.274878"]},
+        "properties" : { "address" : "Lloyd Hse WQ", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 459,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7565819","42.2739513"]},
+        "properties" : { "address" : "Madison St.", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 460,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "Mosher Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 461,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "Mosher Jordan Hall #498", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 462,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7313968","42.2800524"]},
+        "properties" : { "address" : "Mosher-Jordan Dorm", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 463,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.7499335","42.281736"]},
+        "properties" : { "address" : "New WRH", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 464,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["0","0"]},
+        "properties" : { "address" : "No Ann Arbor Addresses (commuted from Detroit)", "count" : "1"}
+        },
+         { "type" : "Feature",
+        "id" : 465,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : ["-83.6996745","42.2935655"]},
+        "properties" : { "address" : "Northwoods", "count" : "1"}
+      },
+      { "type" : "Feature",
+     "id" : 466,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["0","0"]},
+     "properties" : { "address" : "Not in '52 or '53 stud direct", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 467,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7382241","42.2780436"]},
+     "properties" : { "address" : "Sigma Phi House", "count" : "2"}
+     },
+      { "type" : "Feature",
+     "id" : 468,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7421033","42.2736688"]},
+     "properties" : { "address" : "South Quadrangle", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 469,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7313851","42.2786606"]},
+     "properties" : { "address" : "Stockwell Hall", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 470,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.742483","42.274878"]},
+     "properties" : { "address" : "Tyler Hse", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 471,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.742483","42.274878"]},
+     "properties" : { "address" : "Tyler Hse WQ", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 472,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7333394","42.2752422"]},
+     "properties" : { "address" : "University Towers #5-Q", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 473,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7333394","42.2752422"]},
+     "properties" : { "address" : "University Towers #6-N", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 474,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7333394","42.2752422"]},
+     "properties" : { "address" : "University Towers 536 E. Forest St.", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 475,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.731374","42.278653"]},
+     "properties" : { "address" : "Victor Vaughan Dorm 208", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 476,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.731374","42.278653"]},
+     "properties" : { "address" : "Victor Vaughn 3532 Stockwell Hall", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 477,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7350565","42.2836793"]},
+     "properties" : { "address" : "Victor Vaughn House", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 478,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7478436","42.2911876"]},
+     "properties" : { "address" : "W. Lodge", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 479,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7425259","42.2748777"]},
+     "properties" : { "address" : "Wenley Hse WQ", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 480,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7425259","42.2748777"]},
+     "properties" : { "address" : "West Quadrangle", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 481,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.742483","42.274878"]},
+     "properties" : { "address" : "West Quadrangle", "count" : "1"}
+     },
+      { "type" : "Feature",
+     "id" : 482,
+         "geometry" : {
+             "type" : "Point",
+             "coordinates" : ["-83.7512755","42.2797196"]},
+     "properties" : { "address" : "(blank)", "count" : "1"}
+     }
+         ]
+}
