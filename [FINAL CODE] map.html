@@ -136,7 +136,8 @@ http://localhost:8000/
                         iconCreateFunction: function(cluster){
                             count = 0;
                             cluster.getAllChildMarkers().forEach(function(child){
-                                count = count + parseInt(child.feature.properties.count);
+                                count = count + parseInt(child.feature.properties.Count);
+                                // console.log(child)
                             });
                             return L.divIcon({className:"marker-cluster marker-cluster-large",
                             iconSize: new L.Point(40,40),
