@@ -94,11 +94,6 @@ http://localhost:8000/
             font-weight:bold;
         }
 
-        .button {
-          position:absolute;
-          top:410px;
-        }
-
     </style>
 </head>
 
@@ -126,8 +121,6 @@ http://localhost:8000/
     <h1>African-American UofM Student Residences<h1>
     <h3>1853-1973 (approx)</h3>
 
-    <button onclick="togglePoints();">toggle some data!</button>
-
     <div id="map"></div>
 
     <!-- Manipulate the map -->
@@ -135,13 +128,11 @@ http://localhost:8000/
 
         //Markers
         // var myIcon = L.icon({
-        //     iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
-        //     iconSize: [32, 50],
-        //     iconAnchor: [16, 37],
-        //     popupAnchor: [0, -28]
-        //     });
-
-
+        //                       iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
+        //                       iconSize: [32, 50],
+        //                       iconAnchor: [16, 37],
+        //                       popupAnchor: [0, -28]
+        //                     });
 
         const myCustomColour = '#583470'
 
@@ -167,177 +158,137 @@ http://localhost:8000/
                                 })
 
 
-
-    //Clusters
-    function initialMarkerClusters(){
-        return new L.markerClusterGroup({
-        spiderfyOnMaxZoom: true,
-        showCoverageOnHover: true,
-        zoomToBoundsOnClick: true,
-        maxClusterRadius: 120,
-        singleMarkerMode: false,
-        iconCreateFunction: function(cluster){
-            count = 0;
-            cluster.getAllChildMarkers().forEach(function(child){
-                count = count + parseInt(child.feature.properties.Count);
-                // console.log(child)
-            });
-            return L.divIcon({
-                className:"marker-cluster marker-cluster-large",
-                iconSize: new L.Point(40,40),
-                html: `<div><span >` + count + '</span></div>'
-            });
+        //Clusters
+        function initialMarkerClusters(){
+            return new L.markerClusterGroup({
+                        spiderfyOnMaxZoom: true,
+                        showCoverageOnHover: true,
+                        zoomToBoundsOnClick: true,
+                        maxClusterRadius: 120,
+                        singleMarkerMode: false,
+                        iconCreateFunction: function(cluster){
+                            count = 0;
+                            cluster.getAllChildMarkers().forEach(function(child){
+                                count = count + parseInt(child.feature.properties.Count);
+                                // console.log(child)
+                            });
+                            return L.divIcon({
+                                className:"marker-cluster marker-cluster-large",
+                                iconSize: new L.Point(40,40),
+                                html: `<div><span >` + count + '</span></div>'
+                            });
+                        }
+                    })
         }
-    })
-}
 
 
 
 
-function renderPins(geoJson){
-    var geojson = L.geoJson(
-                        geoJson,
-                        {
-                            onEachFeature: function(feature,layer){
-                                layer.bindPopup("<b>Address:  </b>" + feature.properties.address + "<br>" + "<b>No. of Students:  </b>" + feature.properties.Count);
+        function renderPins(geoJson){
+            var geojson = L.geoJson(
+                                    geoJson,
+                                    {
+                                        onEachFeature: function(feature,layer){
+                                                        layer.bindPopup("<b>Address:  </b>" + feature.properties.address + "<br>" + "<b>No. of Students:  </b>" + feature.properties.Count);
+                                                    },
+                                        pointToLayer: function (feature, latlng) {
+                                                          return L.marker(latlng, {icon: myIcon});
+                                                    }
+                                    }
+                            );
+            markerClusters.clearLayers();
+            markerClusters.addLayer(geojson);
+            map.addLayer(markerClusters);
+        }
+
+
+        //Slider
+        $( function() {
+            // config opaque slider
+                $( "#slider-opaque" ).slider({
+                    range: false,
+                    min: 0,
+                    max: 1,
+                    step: 0.1,
+                    value: 1,
+
+                    slide: function( event, ui ) {
+                        let opaque = ui.value;
+
+                        $( "#opacity" ).val( opaque );
+                        a2_1916_02.setOpacity(opaque);
+                    }
+                });
+                //initial display
+                $( "#opacity" ).val("1");
+
+
+            // config time range slider
+                $( "#slider-range" ).slider({
+                    range: true,
+                    min: 1853, //change to year 1853
+                    max: 1973, //change to year 1973
+                    values: [ 1853, 1973 ], //change to year 1853 - 1973
+
+                    // Every time slider is slided, the map should be refreshed
+                    slide: function( event, ui ) {
+
+                        var newGeoJson = {
+                            "type" : "Feature Collection",
+                            "features": []
+                        };
+                        let startYear = ui.values[ 0 ];
+                        let endYear = ui.values[ 1 ];
+
+                        $( "#amount" ).val( startYear + " - " + endYear );
+
+                        for (let i = 0; i < GEOJSON["features"].length; i++){
+                            if (GEOJSON["features"][i]["properties"]["Date"] >= startYear && GEOJSON["features"][i]["properties"]["Date"] <= endYear) {  // will change "id" to "year"
+                                newGeoJson["features"].push(GEOJSON["features"][i])
                             }
                         }
-                        );
-                        markerClusters.clearLayers();
-                        markerClusters.addLayer(geojson);
-                        map.addLayer(markerClusters);
+                        renderPins(newGeoJson);
                     }
-
-
-
-function renderNarrativePins(geoJson){
-    $.getJSON(geoJson, function(data){
-    var geojson = L.geoJson(
-                        data,
-                        {
-                            onEachFeature: function(feature,layer){
-                                layer.bindPopup("<b>Address:  </b>" + feature.properties.Address + "<br>" +  "<b>Date: </b>" + feature.properties.Date + "<br>" + "<b>Text: </b>" + feature.properties.Text  + "<br>" + "<b>Keywords: </b>" + feature.properties.Keywords + "<br>" + "<b>Link: </b>" +feature.properties.Image);
-                            },
-                            pointToLayer: function (feature, latlng) {
-                                return L.marker(latlng, {icon: myIcon});
-                            }
-
                 });
-    // var count = HOW TO EXTRACT COUNT FROM GEOJSON
-    // var address = HOW TO EXTRACT ADDRESS FROM GEOJSON
-
-    narrative_markers.addLayer(geojson);
-
-    return narrative_markers;
-    });
-
-}
-
-//button
-var toggle = false;
+                //initial display
+                $( "#amount" ).val(
+                     $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 )
+                );
+        } );
 
 
-function togglePoints(){
-  if(!toggle) {
-    map.removeLayer(narrative_markers);
-  } else {
-    map.addLayer(narrative_markers);
-  }
-  toggle = !toggle;
-}
+        // RENDER THE MAP
+        // use a variable for the 1920 tile set
+        var a2_mod = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'});
 
-//Slider
-$( function() {
-// config opaque slider
-$( "#slider-opaque" ).slider({
-    range: false,
-    min: 0,
-    max: 1,
-    step: 0.1,
-    value: 1,
+        // Rheagan's piece: use a variable for the 1920 tile set
+        var OpenStreetMap_BlackAndWhite = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        });
 
-    slide: function( event, ui ) {
-        let opaque = ui.value;
+        // Rheagan's piece - adding sanbourn maps
+        var a2_1916_02 = L.tileLayer('http://mapwarper.net/maps/tile/28881/{z}/{x}/{y}.png');
+        var histmap = L.layerGroup([a2_1916_02]);
 
-        $( "#opacity" ).val( opaque );
-        a2_1916_02.setOpacity(opaque);
-    }
-});
-//initial display
-$( "#opacity" ).val("1");
+        var map = L.map('map', {
+            layers: [OpenStreetMap_BlackAndWhite, histmap]
+        });
 
-
-// config time range slider
-$( "#slider-range" ).slider({
-    range: true,
-    min: 1853, //change to year 1853
-    max: 1973, //change to year 1973
-    values: [ 1853, 1973 ], //change to year 1853 - 1973
-
-    // Every time slider is slided, the map should be refreshed
-    slide: function( event, ui ) {
-
-        var newGeoJson = {
-            "type" : "Feature Collection",
-            "features": []
+        var overlayMaps = {
+            "show historic map": histmap
         };
-        let startYear = ui.values[ 0 ];
-        let endYear = ui.values[ 1 ];
 
-        $( "#amount" ).val( startYear + " - " + endYear );
+        L.control.layers(null, overlayMaps).addTo(map);
 
-        for (let i = 0; i < GEOJSON["features"].length; i++){
-            if (GEOJSON["features"][i]["properties"]["Date"] >= startYear && GEOJSON["features"][i]["properties"]["Date"] <= endYear) {  // will change "id" to "year"
-                newGeoJson["features"].push(GEOJSON["features"][i])
-            }
-        }
-        renderPins(newGeoJson);
-    }
-});
-//initial display
-$( "#amount" ).val(
-     $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 )
-);
-} );
+        // zoom and center in Ann Arbor
+        map.setView([42.2718, -83.7436], 14);
 
+        // cluster points on the map
+        var markerClusters = initialMarkerClusters();
 
-    // RENDER THE MAP
-    // use a variable for the 1920 tile set
-    var a2_mod = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'});
-
-    // Rheagan's piece: use a variable for the 1920 tile set
-    var OpenStreetMap_BlackAndWhite = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
-        maxZoom: 18,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    });
-
-    // Rheagan's piece - adding sanbourn maps
-    var a2_1916_02 = L.tileLayer('http://mapwarper.net/maps/tile/28881/{z}/{x}/{y}.png');
-    var histmap = L.layerGroup([a2_1916_02]);
-
-    var map = L.map('map', {
-        layers: [OpenStreetMap_BlackAndWhite, histmap]
-    });
-
-    var overlayMaps = {
-        "show historic map": histmap
-    };
-
-    L.control.layers(null, overlayMaps).addTo(map);
-
-    // zoom and center in Ann Arbor
-    map.setView([42.2718, -83.7436], 14);
-
-    // cluster points on the map
-    var markerClusters = initialMarkerClusters();
-    var narrative_markers = initialMarkerClusters();
-
-    //GET THE INITIAL PINS
-    renderPins(GEOJSON);
-
-    var narrative_markers = renderNarrativePins("../narrative_data.geojson");
-
-    map.addLayer(narrative_markers);
+        //GET THE INITIAL PINS
+        renderPins(GEOJSON);
 
 
 
