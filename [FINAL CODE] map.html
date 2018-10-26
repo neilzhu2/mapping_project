@@ -207,11 +207,11 @@ http://localhost:8000/
 
             const markerNarrativeHtmlStyles = `
                                           background-color: ${myCustomColour};
-                                          width: 1.5rem;
-                                          height: 1.5rem;
+                                          width: 1.2rem;
+                                          height: 1.2rem;
                                           display: block;
-                                          left: -1.5rem;
-                                          top: -1.5rem;
+                                          left: -1.2rem;
+                                          top: -1.2rem;
                                           position: relative;
                                           border-radius: 3rem 3rem 0;
                                           transform: rotate(45deg);
@@ -236,32 +236,36 @@ http://localhost:8000/
 
             var uniqueClass;
 
+            var groupToReturn = new L.markerClusterGroup({
+                                    spiderfyOnMaxZoom: true,
+                                    showCoverageOnHover: true,
+                                    zoomToBoundsOnClick: true,
+                                    // maxClusterRadius: 120,
+                                    singleMarkerMode: false,
+                                    iconCreateFunction: function(cluster){
+                                        count = 0;
+                                        cluster.getAllChildMarkers().forEach(function(child){
+                                            count = (type == 1) ? (count + parseInt(child.feature.properties.Count)) : (count + 1);
+                                        });
+                                        return L.divIcon({
+                                            className:`marker-cluster ${uniqueClass}`,
+                                            iconSize: new L.Point(40,40),
+                                            html: `<div><span >` + count + '</span></div>'
+                                        });
+                                    }
+                                })
+
             switch (type) {
                 case 1:
                     uniqueClass = "marker-cluster-large";
+                    groupToReturn.options.maxClusterRadius = 120;
                     break;
                 case 2:
                     uniqueClass = "marker-cluster-large_nav";
+                    groupToReturn.options.maxClusterRadius = 1;
             }
 
-            return new L.markerClusterGroup({
-                spiderfyOnMaxZoom: true,
-                showCoverageOnHover: true,
-                zoomToBoundsOnClick: true,
-                maxClusterRadius: 120,
-                singleMarkerMode: false,
-                iconCreateFunction: function(cluster){
-                    count = 0;
-                    cluster.getAllChildMarkers().forEach(function(child){
-                        count = (type == 1) ? (count + parseInt(child.feature.properties.Count)) : (count + 1);
-                    });
-                    return L.divIcon({
-                        className:`marker-cluster ${uniqueClass}`,
-                        iconSize: new L.Point(40,40),
-                        html: `<div><span >` + count + '</span></div>'
-                    });
-                }
-            })
+            return groupToReturn;
         }
 
 
@@ -292,15 +296,20 @@ http://localhost:8000/
             customizedIcon = customizeMarker(markColors['event']);
 
             $.getJSON(geoJsonURL, function(data){
-                var geojson = L.geoJson(data,{
+                var geojson = L.geoJson(data, {
                                                 onEachFeature: function(feature,layer){
-                                                    layer.bindPopup("<b>Address:  </b>" + feature.properties.Address + "<br>" +  "<b>Date: </b>" + feature.properties.Date + "<br>" + "<b>Text: </b>" + feature.properties.Text  + "<br>" + "<b>Keywords: </b>" + feature.properties.Keywords + "<br>" + "<b>Link: </b>" +feature.properties.Image);
+                                                    val = feature.properties['Local_Image'];
+                                                    if (val != ""){
+                                                        val = '<img src="' + val + '"  width="250" />';
+                                                    }
+
+                                                    layer.bindPopup("<b>Address:  </b>" + feature.properties.Address + "<br>" +  "<b>Date: </b>" + feature.properties.Date + "<br>" + "<b>Text: </b>" + feature.properties.Text  + "<br>" + "<b>Keywords: </b>" + feature.properties.Keywords + "<br>" + val);
                                                 },
+
                                                 pointToLayer: function (feature, latlng) {
                                                     return L.marker(latlng, {icon: customizedIcon});
                                                 }
-                                            });
-                narrative_markers.clearLayers();
+                                        });
                 narrative_markers.addLayer(geojson);
                 map.addLayer(narrative_markers);
             });
@@ -398,7 +407,7 @@ http://localhost:8000/
         //GET THE INITIAL PINS
         renderPins(GEOJSON);
 
-        renderNarrativePins("data/narrative_data.geojson");
+        renderNarrativePins("data/final_narrative_data.geojson");
 
 
         //button
