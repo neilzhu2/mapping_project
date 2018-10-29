@@ -14,6 +14,7 @@ http://localhost:8000/
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <link href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" media="screen, print" rel="stylesheet">
 
     <!-- leaflet cluster example 03.09.2018 -->
@@ -91,26 +92,20 @@ http://localhost:8000/
 
         .sliderDiv{
             display:inline-block;
-            width: 50%;
+            width: 66%;
             height: 8%;
             margin-bottom: 5px;
+            padding-left: 3%;
             /* margin-top: 25px; */
         }
 
         .sliderDiv.narrow{
-            width: 25%;
+            width: 30%;
+            padding-left: 0;
         }
 
         #slider-opaque, #slider-range{
             width: 90%;
-        }
-
-        .toggleButton{
-            display:inline-block;
-            margin: 0 auto;
-            width: 20%;
-            height: 8%;
-            margin-bottom: 5px;
         }
 
         .sliderValue{
@@ -119,12 +114,16 @@ http://localhost:8000/
             font-weight:bold;
         }
 
-        /* .button {
-          position:absolute;
-          top:410px;
+        .filterCheckBox{
+            display: block;
+            margin: 2% 0 0 3%;
+        }
+
+        /* .filterCheckBox input{
+            margin-left: 3%;
         } */
 
-        button{
+        /* button{
             display: block;
             width: 70%;
             margin: 0 auto;
@@ -142,7 +141,82 @@ http://localhost:8000/
         button:hover{
             background-color: #FFAE02;
             color: white;
-        }
+        } */
+
+        /* Customize the label (the container) */
+            .checkBoxContainer {
+              display: inline-block;
+              position: relative;
+              padding-left: 3%;
+              margin-bottom: 1%;
+              cursor: pointer;
+              /* font-size: 22px; */
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+
+            /* Hide the browser's default checkbox */
+            .checkBoxContainer input {
+              position: absolute;
+              opacity: 0;
+              cursor: pointer;
+              height: 0;
+              width: 0;
+            }
+
+            /* Create a custom checkbox */
+            .checkmark {
+              position: absolute;
+              top: 0;
+              left: 18px;
+              height: 18px;
+              width: 18px;
+              background-color: #eee;
+              border-radius: 5px;
+            }
+
+            /* On mouse-over, add a grey background color */
+            .checkBoxContainer:hover input ~ .checkmark {
+              background-color: #ccc;
+            }
+
+            /* When the checkbox is checked, add a blue background */
+            /* .checkBoxContainer input:checked ~ .checkmark {
+              background-color: #2196F3;
+            } */
+            .checkBoxContainer input:checked ~ .accommodation_marker {
+              background-color: #4B92C0;
+            }
+            .checkBoxContainer input:checked ~ .event_marker {
+              background-color: #F99D4C;
+            }
+
+            /* Create the checkmark/indicator (hidden when not checked) */
+            .checkmark:after {
+              content: "";
+              position: absolute;
+              display: none;
+            }
+
+            /* Show the checkmark when checked */
+            .checkBoxContainer input:checked ~ .checkmark:after {
+              display: block;
+            }
+
+            /* Style the checkmark/indicator */
+            .checkBoxContainer .checkmark:after {
+              left: 6px;
+              top: 2px;
+              width: 5px;
+              height: 10px;
+              border: solid white;
+              border-width: 0 2px 2px 0;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+            }
 
     </style>
 </head>
@@ -153,7 +227,7 @@ http://localhost:8000/
     <!-- time range slider -->
     <div class="sliderDiv" >
         <p>
-            <label for="amount">Time range:</label>
+            <label for="amount">Time range for Accommodations:</label>
             <input class="sliderValue" type="text" id="amount" >
         </p>
         <div id="slider-range"></div>
@@ -168,10 +242,19 @@ http://localhost:8000/
         <div id="slider-opaque"></div>
     </div>
 
-    <!-- toggle button -->
-    <div class="toggleButton">
-        <button onclick="togglePoints();">Toggle Event</button>
-    </div>
+    <!-- checkboxes -->
+    <span class="filterCheckBox">
+        <label class="checkBoxContainer">Accommodations
+          <input type="checkbox" name="Accommodations" value="accommodation_markers" checked=true>
+          <span class="checkmark accommodation_marker"></span>
+        </label>
+        <label class="checkBoxContainer">Events
+          <input type="checkbox" name="Events"  value="event_markers" checked=true>
+          <span class="checkmark event_marker"></span>
+        </label>
+        <!-- <input type="checkbox" name="Accommodations" value="accommodation_markers" checked=true> Accommodations
+        <input type="checkbox" name="Events"  value="event_markers" checked=true> Events -->
+    </span>
 
 
 
@@ -271,7 +354,7 @@ http://localhost:8000/
 
 
 
-        function renderPins(geoJson){
+        function renderPins(accommodation_markers, geoJson){
             customizedIcon = customizeMarker(markColors['residence']);
 
             var geojson = L.geoJson(
@@ -285,14 +368,14 @@ http://localhost:8000/
                                     }
                             });
 
-            markerClusters.clearLayers();
-            markerClusters.addLayer(geojson);
-            map.addLayer(markerClusters);
+            accommodation_markers.clearLayers();
+            accommodation_markers.addLayer(geojson);
+            map.addLayer(accommodation_markers);
         }
 
 
 
-        function renderNarrativePins(geoJsonURL){
+        function renderNarrativePins(event_markers, geoJsonURL){
             customizedIcon = customizeMarker(markColors['event']);
 
             $.getJSON(geoJsonURL, function(data){
@@ -300,7 +383,7 @@ http://localhost:8000/
                                                 onEachFeature: function(feature,layer){
                                                     val = feature.properties['Local_Image'];
                                                     if (val != ""){
-                                                        val = '<img src="' + val + '"  width="250" />';
+                                                        val = '<img src="' + val + '"  style="max-width:250; max-height:200" />';
                                                     }
 
                                                     layer.bindPopup("<b>Address:  </b>" + feature.properties.Address + "<br>" +  "<b>Date: </b>" + feature.properties.Date + "<br>" + "<b>Text: </b>" + feature.properties.Text  + "<br>" + "<b>Keywords: </b>" + feature.properties.Keywords + "<br>" + val);
@@ -310,8 +393,8 @@ http://localhost:8000/
                                                     return L.marker(latlng, {icon: customizedIcon});
                                                 }
                                         });
-                narrative_markers.addLayer(geojson);
-                map.addLayer(narrative_markers);
+                event_markers.addLayer(geojson);
+                map.addLayer(event_markers);
             });
 
         }
@@ -401,31 +484,32 @@ http://localhost:8000/
         map.setView([42.2718, -83.7436], 14);
 
         // cluster points on the map
-        var markerClusters = initialMarkerClusters(1);
-        var narrative_markers = initialMarkerClusters(2);
+        var accommodation_markers = initialMarkerClusters(1);
+        var event_markers = initialMarkerClusters(2);
+        var markers = {
+                        "accommodation_markers": accommodation_markers,
+                        "event_markers": event_markers
+                    }
 
         //GET THE INITIAL PINS
-        renderPins(GEOJSON);
+        renderPins(accommodation_markers, GEOJSON);
 
-        renderNarrativePins("data/final_narrative_data.geojson");
-
-
-        //button
-        var toggle = false;
+        renderNarrativePins(event_markers, "data/final_narrative_data.geojson");
 
 
-        function togglePoints(){
-            console.log("toggle=", toggle)
-            if(!toggle) {
-              map.removeLayer(narrative_markers);
-              console.log("narratLayer Removed!");
-            } else {
-              map.addLayer(narrative_markers);
-              console.log("narratLayer Added!");
+
+        d3.selectAll("input[type=checkbox]").on("change", function(d) {
+
+            var showPins = this.checked;
+            var theMarker = markers[this.value];
+
+            if(showPins){
+                map.addLayer(theMarker);
+            } else{
+                map.removeLayer(theMarker);
             }
+        });
 
-            toggle = !toggle;
-        }
 
         // History notes
             // add a popup for each point

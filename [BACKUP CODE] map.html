@@ -26,17 +26,12 @@ http://localhost:8000/
     <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js'></script>
 
     <!-- Pass the geojson data into a viarable named GEOJSON -->
-    <script type="text/javascript" src="vlookup.js"></script>
+    <script type="text/javascript" src="data/vlookup.js"></script>
 
     <!--former script links pre 03.09.2018 -->
     <!-- <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
 
-    <script>
-        // to link to crossfilter <script src="https://raw.github.com/square/crossfilter">
-
-
-    </script>
 
     <!-- Time range slider -->
     <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
@@ -58,7 +53,7 @@ http://localhost:8000/
             font-family: "Arial", "Verdana"
         }
 
-        .markerdiv {
+        /* .markerdiv {
             background-color: rgba(237, 248, 177, 0.6);
         }
 
@@ -72,7 +67,7 @@ http://localhost:8000/
 
         .marker-cluster-medium div {
             background-color: rgba(127, 205, 187, 0.6);
-        }
+        } */
 
         .marker-cluster-large {
             background-color: rgba(44, 127, 184, 0.6);
@@ -83,15 +78,70 @@ http://localhost:8000/
         }
 
 
+
+        .marker-cluster-large_nav {
+            background-color: rgba(254, 143, 27, 0.6);
+        }
+
+        .marker-cluster-large_nav div {
+            background-color: rgba(254, 143, 27, 0.6);
+        }
+
+
+
+        .sliderDiv{
+            display:inline-block;
+            width: 50%;
+            height: 8%;
+            margin-bottom: 5px;
+            /* margin-top: 25px; */
+        }
+
+        .sliderDiv.narrow{
+            width: 25%;
+        }
+
         #slider-opaque, #slider-range{
-            width: 30%;
-            display: inline-block;
+            width: 90%;
+        }
+
+        .toggleButton{
+            display:inline-block;
+            margin: 0 auto;
+            width: 20%;
+            height: 8%;
+            margin-bottom: 5px;
         }
 
         .sliderValue{
             border:0;
-            color:#f6931f;
+            color:#4E91BE;
             font-weight:bold;
+        }
+
+        /* .button {
+          position:absolute;
+          top:410px;
+        } */
+
+        button{
+            display: block;
+            width: 70%;
+            margin: 0 auto;
+            position: relative;
+            height: 70%;
+            top: 1.6em;
+            border-radius: 5px;
+            background-color: #FFCD69;
+
+            font-family: sans-serif;
+            font-size: 0.8em;
+            color: black;
+        }
+
+        button:hover{
+            background-color: #FFAE02;
+            color: white;
         }
 
     </style>
@@ -100,20 +150,29 @@ http://localhost:8000/
 
 
 <body>
-    <!-- opacity slider -->
-    <p style="margin-bottom: 5px; margin-top: 25px;">
-        <label for="opacity">Map opacity:</label>
-        <input class="sliderValue" type="text" id="opacity" >
-    </p>
-    <div id="slider-opaque"></div>
     <!-- time range slider -->
-    <div>
-        <p style="margin-bottom: 5px;">
+    <div class="sliderDiv" >
+        <p>
             <label for="amount">Time range:</label>
             <input class="sliderValue" type="text" id="amount" >
         </p>
         <div id="slider-range"></div>
     </div>
+
+    <!-- opacity slider -->
+    <div class="sliderDiv narrow" >
+        <p>
+            <label for="opacity">Map opacity:</label>
+            <input class="sliderValue" type="text" id="opacity" >
+        </p>
+        <div id="slider-opaque"></div>
+    </div>
+
+    <!-- toggle button -->
+    <div class="toggleButton">
+        <button onclick="togglePoints();">Toggle Event</button>
+    </div>
+
 
 
     <hr>
@@ -121,139 +180,196 @@ http://localhost:8000/
     <h1>African-American UofM Student Residences<h1>
     <h3>1853-1973 (approx)</h3>
 
+
+
     <div id="map"></div>
 
     <!-- Manipulate the map -->
     <script type="text/javascript">
 
         //Markers
+        //Method 1
         // var myIcon = L.icon({
-        //                       iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
-        //                       iconSize: [32, 50],
-        //                       iconAnchor: [16, 37],
-        //                       popupAnchor: [0, -28]
-        //                     });
+        //     iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
+        //     iconSize: [32, 50],
+        //     iconAnchor: [16, 37],
+        //     popupAnchor: [0, -28]
+        //     });
 
-        const myCustomColour = '#583470'
 
-        const markerHtmlStyles = `
-                                      background-color: ${myCustomColour};
-                                      width: 3rem;
-                                      height: 3rem;
-                                      display: block;
-                                      left: -1.5rem;
-                                      top: -1.5rem;
-                                      position: relative;
-                                      border-radius: 3rem 3rem 0;
-                                      transform: rotate(45deg);
-                                      border: 1px solid #FFFFFF
-                                  `
+        //Method 2
+        const markColors = {'residence': '#4E91BE', 'event': '#F99E4C'}
 
-        var myIcon = L.divIcon({
-                                  className: "my-custom-pin",
-                                  iconAnchor: [0, 24],
-                                  labelAnchor: [-6, 0],
-                                  popupAnchor: [0, -36],
-                                  html: `<span style="${markerHtmlStyles}" />`
+        var customizedIcon;
+
+        function customizeMarker(color){
+            const myCustomColour = color
+
+            const markerNarrativeHtmlStyles = `
+                                          background-color: ${myCustomColour};
+                                          width: 1.2rem;
+                                          height: 1.2rem;
+                                          display: block;
+                                          left: -1.2rem;
+                                          top: -1.2rem;
+                                          position: relative;
+                                          border-radius: 3rem 3rem 0;
+                                          transform: rotate(45deg);
+                                          border: 0.5px solid #FFFFFF
+                                      `
+
+            var icon = L.divIcon({
+                                      className: "my-custom-pin",
+                                      iconAnchor: [0, 24],
+                                      labelAnchor: [-6, 0],
+                                      popupAnchor: [0, -36],
+                                      html: `<span style="${markerNarrativeHtmlStyles}" />`
+                                    })
+
+            return icon;
+        }
+
+
+
+        //Clusters: 1 for residence, 2 for events
+        function initialMarkerClusters(type){
+
+            var uniqueClass;
+
+            var groupToReturn = new L.markerClusterGroup({
+                                    spiderfyOnMaxZoom: true,
+                                    showCoverageOnHover: true,
+                                    zoomToBoundsOnClick: true,
+                                    // maxClusterRadius: 120,
+                                    singleMarkerMode: false,
+                                    iconCreateFunction: function(cluster){
+                                        count = 0;
+                                        cluster.getAllChildMarkers().forEach(function(child){
+                                            count = (type == 1) ? (count + parseInt(child.feature.properties.Count)) : (count + 1);
+                                        });
+                                        return L.divIcon({
+                                            className:`marker-cluster ${uniqueClass}`,
+                                            iconSize: new L.Point(40,40),
+                                            html: `<div><span >` + count + '</span></div>'
+                                        });
+                                    }
                                 })
 
+            switch (type) {
+                case 1:
+                    uniqueClass = "marker-cluster-large";
+                    groupToReturn.options.maxClusterRadius = 120;
+                    break;
+                case 2:
+                    uniqueClass = "marker-cluster-large_nav";
+                    groupToReturn.options.maxClusterRadius = 1;
+            }
 
-        //Clusters
-        function initialMarkerClusters(){
-            return new L.markerClusterGroup({
-                        spiderfyOnMaxZoom: true,
-                        showCoverageOnHover: true,
-                        zoomToBoundsOnClick: true,
-                        maxClusterRadius: 120,
-                        singleMarkerMode: false,
-                        iconCreateFunction: function(cluster){
-                            count = 0;
-                            cluster.getAllChildMarkers().forEach(function(child){
-                                count = count + parseInt(child.feature.properties.Count);
-                                // console.log(child)
-                            });
-                            return L.divIcon({
-                                className:"marker-cluster marker-cluster-large",
-                                iconSize: new L.Point(40,40),
-                                html: `<div><span >` + count + '</span></div>'
-                            });
-                        }
-                    })
+            return groupToReturn;
         }
 
 
 
 
         function renderPins(geoJson){
+            customizedIcon = customizeMarker(markColors['residence']);
+
             var geojson = L.geoJson(
-                                    geoJson,
-                                    {
-                                        onEachFeature: function(feature,layer){
-                                                        layer.bindPopup("<b>Address:  </b>" + feature.properties.address + "<br>" + "<b>No. of Students:  </b>" + feature.properties.Count);
-                                                    },
-                                        pointToLayer: function (feature, latlng) {
-                                                          return L.marker(latlng, {icon: myIcon});
-                                                    }
+                                geoJson,
+                                {
+                                    onEachFeature: function(feature,layer){
+                                        layer.bindPopup("<b>Address:  </b>" + feature.properties.address + "<br>" + "<b>No. of Students:  </b>" + feature.properties.Count);
+                                    },
+                                    pointToLayer: function (feature, latlng) {
+                                        return L.marker(latlng, {icon: customizedIcon});
                                     }
-                            );
+                            });
+
             markerClusters.clearLayers();
             markerClusters.addLayer(geojson);
             map.addLayer(markerClusters);
         }
 
 
+
+        function renderNarrativePins(geoJsonURL){
+            customizedIcon = customizeMarker(markColors['event']);
+
+            $.getJSON(geoJsonURL, function(data){
+                var geojson = L.geoJson(data, {
+                                                onEachFeature: function(feature,layer){
+                                                    val = feature.properties['Local_Image'];
+                                                    if (val != ""){
+                                                        val = '<img src="' + val + '"  width="250" />';
+                                                    }
+
+                                                    layer.bindPopup("<b>Address:  </b>" + feature.properties.Address + "<br>" +  "<b>Date: </b>" + feature.properties.Date + "<br>" + "<b>Text: </b>" + feature.properties.Text  + "<br>" + "<b>Keywords: </b>" + feature.properties.Keywords + "<br>" + val);
+                                                },
+
+                                                pointToLayer: function (feature, latlng) {
+                                                    return L.marker(latlng, {icon: customizedIcon});
+                                                }
+                                        });
+                narrative_markers.addLayer(geojson);
+                map.addLayer(narrative_markers);
+            });
+
+        }
+
+
+
         //Slider
         $( function() {
             // config opaque slider
-                $( "#slider-opaque" ).slider({
-                    range: false,
-                    min: 0,
-                    max: 1,
-                    step: 0.1,
-                    value: 1,
+            $( "#slider-opaque" ).slider({
+                range: false,
+                min: 0,
+                max: 1,
+                step: 0.1,
+                value: 1,
 
-                    slide: function( event, ui ) {
-                        let opaque = ui.value;
+                slide: function( event, ui ) {
+                    let opaque = ui.value;
 
-                        $( "#opacity" ).val( opaque );
-                        a2_1916_02.setOpacity(opaque);
-                    }
-                });
-                //initial display
-                $( "#opacity" ).val("1");
+                    $( "#opacity" ).val( opaque );
+                    a2_1916_02.setOpacity(opaque);
+                }
+            });
+            //initial display
+            $( "#opacity" ).val("1");
 
 
             // config time range slider
-                $( "#slider-range" ).slider({
-                    range: true,
-                    min: 1853, //change to year 1853
-                    max: 1973, //change to year 1973
-                    values: [ 1853, 1973 ], //change to year 1853 - 1973
+            $( "#slider-range" ).slider({
+                range: true,
+                min: 1853, //change to year 1853
+                max: 1973, //change to year 1973
+                values: [ 1853, 1973 ], //change to year 1853 - 1973
 
-                    // Every time slider is slided, the map should be refreshed
-                    slide: function( event, ui ) {
+                // Every time slider is slided, the map should be refreshed
+                slide: function( event, ui ) {
 
-                        var newGeoJson = {
-                            "type" : "Feature Collection",
-                            "features": []
-                        };
-                        let startYear = ui.values[ 0 ];
-                        let endYear = ui.values[ 1 ];
+                    var newGeoJson = {
+                        "type" : "Feature Collection",
+                        "features": []
+                    };
+                    let startYear = ui.values[ 0 ];
+                    let endYear = ui.values[ 1 ];
 
-                        $( "#amount" ).val( startYear + " - " + endYear );
+                    $( "#amount" ).val( startYear + " - " + endYear );
 
-                        for (let i = 0; i < GEOJSON["features"].length; i++){
-                            if (GEOJSON["features"][i]["properties"]["Date"] >= startYear && GEOJSON["features"][i]["properties"]["Date"] <= endYear) {  // will change "id" to "year"
-                                newGeoJson["features"].push(GEOJSON["features"][i])
-                            }
+                    for (let i = 0; i < GEOJSON["features"].length; i++){
+                        if (GEOJSON["features"][i]["properties"]["Date"] >= startYear && GEOJSON["features"][i]["properties"]["Date"] <= endYear) {  // will change "id" to "year"
+                            newGeoJson["features"].push(GEOJSON["features"][i])
                         }
-                        renderPins(newGeoJson);
                     }
-                });
-                //initial display
-                $( "#amount" ).val(
-                     $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 )
-                );
+                    renderPins(newGeoJson);
+                }
+            });
+            //initial display
+            $( "#amount" ).val(
+                 $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 )
+            );
         } );
 
 
@@ -285,13 +401,31 @@ http://localhost:8000/
         map.setView([42.2718, -83.7436], 14);
 
         // cluster points on the map
-        var markerClusters = initialMarkerClusters();
+        var markerClusters = initialMarkerClusters(1);
+        var narrative_markers = initialMarkerClusters(2);
 
         //GET THE INITIAL PINS
         renderPins(GEOJSON);
 
+        renderNarrativePins("data/final_narrative_data.geojson");
 
 
+        //button
+        var toggle = false;
+
+
+        function togglePoints(){
+            console.log("toggle=", toggle)
+            if(!toggle) {
+              map.removeLayer(narrative_markers);
+              console.log("narratLayer Removed!");
+            } else {
+              map.addLayer(narrative_markers);
+              console.log("narratLayer Added!");
+            }
+
+            toggle = !toggle;
+        }
 
         // History notes
             // add a popup for each point
