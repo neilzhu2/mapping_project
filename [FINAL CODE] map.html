@@ -116,7 +116,7 @@ http://localhost:8000/
 
         .filterCheckBox{
             display: block;
-            margin: 2% 0 0 3%;
+            margin: 2% 0 0 0;
         }
 
         /* .filterCheckBox input{
@@ -147,7 +147,7 @@ http://localhost:8000/
             .checkBoxContainer {
               display: inline-block;
               position: relative;
-              padding-left: 3%;
+              padding-left: 4em;
               margin-bottom: 1%;
               cursor: pointer;
               /* font-size: 22px; */
@@ -170,7 +170,7 @@ http://localhost:8000/
             .checkmark {
               position: absolute;
               top: 0;
-              left: 18px;
+              left: 2.5em;
               height: 18px;
               width: 18px;
               background-color: #eee;
@@ -446,7 +446,7 @@ http://localhost:8000/
                             newGeoJson["features"].push(GEOJSON["features"][i])
                         }
                     }
-                    renderPins(newGeoJson);
+                    renderPins(accommodation_markers,newGeoJson);
                 }
             });
             //initial display
