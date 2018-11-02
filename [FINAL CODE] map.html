@@ -381,12 +381,28 @@ http://localhost:8000/
             $.getJSON(geoJsonURL, function(data){
                 var geojson = L.geoJson(data, {
                                                 onEachFeature: function(feature,layer){
-                                                    val = feature.properties['Local_Image'];
-                                                    if (val != ""){
-                                                        val = '<img src="' + val + '"  style="max-width:250; max-height:200" />';
+                                                    let val_date = feature.properties.Date;
+                                                    let val_text = feature.properties.Text;
+                                                    let val_keywords = feature.properties.Keywords;
+                                                    let val_img = feature.properties['Local_Image'];
+
+                                                    if (val_date != ""){
+                                                        val_date = "<b>Date: </b>" + val_date + "<br>";
                                                     }
 
-                                                    layer.bindPopup("<b>Address:  </b>" + feature.properties.Address + "<br>" +  "<b>Date: </b>" + feature.properties.Date + "<br>" + "<b>Text: </b>" + feature.properties.Text  + "<br>" + "<b>Keywords: </b>" + feature.properties.Keywords + "<br>" + val);
+                                                    if (val_text != ""){
+                                                        val_text = "<b>Text: </b>" + val_text  + "<br>";
+                                                    }
+
+                                                    if (val_keywords != ""){
+                                                        val_keywords = "<b>Keywords: </b>" + val_keywords + "<br>";
+                                                    }
+
+                                                    if (val_img != ""){
+                                                        val_img = '<img src="' + val_img + '"  style="max-width:250; max-height:200" />';
+                                                    }
+
+                                                    layer.bindPopup("<b>Address:  </b>" + feature.properties.Address + "<br>" + val_date + val_text + val_keywords + val_img);
                                                 },
 
                                                 pointToLayer: function (feature, latlng) {
