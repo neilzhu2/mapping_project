@@ -1,0 +1,509 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "401 N Division St, Ann Arbor, MI 48104, USA",
+        "Date": "1956",
+        "Keywords": "Jones School\rFourth Ward School",
+        "Text": "The Fourth Ward School became Jones School in 1922 and was the only majority African American school in the history of Ann Arbor. As racial and socioeconomic inequalities grew, a concentration of African Americans formed in Jones neighborhood, a largely non-white, working class neighborhood. The Ann Arbor Direct Action Committee fought to integrate more schools in the area, leading to Jones closing in 1965 This marked the AADACs first efforts to end school segregation.",
+        "Image": "https://drive.google.com/open?id=1UpmzTmm4xdYsYOSb3HfZQus3BlrJ4URA",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7442973,
+          42.2839428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "420 N 4th Ave, Ann Arbor, MI 48104, USA",
+        "Date": "1940",
+        "Keywords": "Dunbar Community Center",
+        "Text": "Established in 1923, the Dunbar Center was a popular meeting place for African Americans in Ann Arbor. Because many spaces were only open to whites, clubs at UM like Alpha Kappa Alpha would hold their meetings at Dunbar.",
+        "Image": "https://drive.google.com/file/d/1lHWUaT6_qw-1zCPZhAz4MJLVecP8BMEW/view",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7468685,
+          42.2846725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "620 Church St, Ann Arbor, MI 48104, USA",
+        "Date": "1920s",
+        "Keywords": "Professor Oakley Johnson, Negro-Caucasian Club",
+        "Text": "The Negro-Caucasian Club held their meetings here at the home of Professor Oakley Johnson. Johnson, a white communist and anti-racist activist, served as the faculty advisor. He worked with student activists Lenoir Beatrice Smith, Sarita Davis, and Komuria Albert Harden to.... Professor Johnsons house has since been torn down.",
+        "Image": "https://drive.google.com/file/d/1-bUw5hjd02cRTMuiwD1tOVkuk0zhb9x9/view?usp=sharing",
+        "Local_Image": "photos/Lenoir Bertrice Smith, michigantoday.umich.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7348469,
+          42.2741931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "333 E Stadium Blvd, Ann Arbor, MI 48104, USA",
+        "Date": "Oct-68",
+        "Keywords": "Homecoming Queen",
+        "Text": "Opal C. Bailey, Michigans 1967 Homecoming Queen, explained why the black student body protested the 1968 homecoming queen competition due to discriminatory questions that",
+        "Image": "https://drive.google.com/open?id=16xZKChcqeQhWoEiYoqRBL0cDRUJ2Vg5G",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7466403,
+          42.2649243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "211 Nickels Arcade, Ann Arbor, MI 48104, USA",
+        "Date": "Fall 1925",
+        "Keywords": "Negro-Caucasian Club",
+        "Text": "Lenoir Beatrice Smith (black) and Edith Kaplan (white) were refused service, an experience that led to the creation of the Negro-Caucasian Club",
+        "Image": "https://drive.google.com/open?id=1NvVWSwVXMFY1GU-w2Y9-DExswTiivz3j",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7413519,
+          42.2783643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "530 S State St, Ann Arbor, MI 48109, USA",
+        "Date": "1941",
+        "Keywords": "NPHC",
+        "Text": "The Black fraternities and sororities of the University hosted a dance for Black students at the union in the summer.",
+        "Image": "https://digital.bentley.umich.edu/midaily/mdp.39015071756626/127",
+        "Local_Image": "photos/bhl_midaily_mdp.39015071756626_IMG00000127_full_1724_2235__0_default.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7413568,
+          42.2751833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "911 N University Ave, Ann Arbor, MI 48104, USA",
+        "Date": "1935",
+        "Keywords": "Delta Sigma Theta",
+        "Text": "Delta Sigma Theta Sorority, Incorporated Nu Chapter held their first annual Scholarship dinner in the League Chapel.",
+        "Image": "https://digital.bentley.umich.edu/midaily/mdp.39015071755974/215",
+        "Local_Image": "photos/bhl_midaily_mdp.39015071755974_IMG00000215_full_1701_2218__0_default.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7377271,
+          42.2793182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "111 E Ann St, Ann Arbor, MI 48104, USA",
+        "Date": "1890s-1970s",
+        "Keywords": "Midway Lunch\rClints Club",
+        "Text": "Originally the Midway Lunch, this address became Clints Club in the mid-60s. Clints was a popular bar for African American students at Michigan. It was known as the friendliest bar in Ann Arbor and often featured live bands and go-go girls.",
+        "Image": "https://drive.google.com/file/d/1mwDRBnUHozhjOpH6f6h3StzRwCDz362Q/view?usp=sharing",
+        "Local_Image": "photos/ClintsClubMDaily1967.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.74785,
+          42.282541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "204 S State St, Ann Arbor, MI 48109, USA",
+        "Date": "Early 20th century",
+        "Keywords": "Lane Hall\rYWCA, YMCA, SCA",
+        "Text": "Lane Hall was built in 1916 to house the campus YMCA and later YWCA. The University bought the building in 1936. In 1946, Lane Hall hosted Virginia W. Elliss musical program, The Rise and Development of the Negro Spiritual Since then, it houses many community and campus organizations and events.",
+        "Image": "https://drive.google.com/file/d/1IVC9l3GPQYrazHifeQwxt3KvSyeEiuS5/view?usp=sharing",
+        "Local_Image": "photos/Lane Hall, aadl, undated.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7412461,
+          42.2800975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "646 N 4th Ave, Ann Arbor, MI 48104, USA",
+        "Date": "1910-1960",
+        "Keywords": "Laura Naomi Turner\rDunbar Center\rCromwell",
+        "Text": "Laura Naomi Turners family owned this property circa 1910 until 1960. During that time, the family hosted countless African American workers who needed a place to stay in Ann Arbor. Laura later graduated with a teaching degree in 1930 and the Turner family became heavily involved in the Dunbar Community Center.",
+        "Image": "https://drive.google.com/file/d/1Y9fod7p3zwuqyFDzwJfF75XAoMIEmkAA/view?usp=sharing",
+        "Local_Image": "photos/Turner family, dignitymemorial.com.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7464601,
+          42.2867483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "309 S State St #308, Ann Arbor, MI 48104, USA",
+        "Date": "1959-1960",
+        "Keywords": "Thelma Brooks, Cousins Shop, Human Rights Commission",
+        "Text": "308 S. State Street was the site of the Cousins Shop, a shop owned by Jeanie Cousins. The shop specialized in womens clothing aimed at University of Michigan students and young professional women. The store became a site of student organizing due to the shops refusal to let a black teacher, Thelma Brooks, try on clothing at the store. And the Mrs. Cousins refusal to change her policy or meet with the community about her discriminatory store policies.",
+        "Image": "",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7406208,
+          42.2790151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1019 W Washington St, Ann Arbor, MI 48103, USA",
+        "Date": "3/25-18/1971",
+        "Keywords": "Slauson Junior High School",
+        "Text": "The Ann Arbor Black Theatre Inc performed Black Jewel, a play written as a tribute to Black women with a majority Black female cast at Slauson Junior High School. This was the only place the company could confirm after a fire at the last venue left them without a place to perform.",
+        "Image": "",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7612438,
+          42.2798368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "144 Hill St, Ann Arbor, MI 48104, USA",
+        "Date": "1928-1929",
+        "Keywords": "Black womens Housing - Esther Dickson",
+        "Text": "Owned by Esther Dicksion the 144 Hill street home was seens a solution to integration. As new womens dorms were built, Black women were still not permitted to live in university dorms. To solve this problem the University allowed Mrs. Esther Dickson to house women as a member of the University of Michigan Womens League Housing. Many students were upset because of the houses location to the train tracks its distance from campus. It was short lived as a league house. It was passed down to Esther Dicksons son William Dickson, who would become the coroner of Washtenaw, where he raised a son.",
+        "Image": "",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7477606,
+          42.2714689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "632 N 4th Ave, Ann Arbor, MI 48104, USA",
+        "Date": "1896-",
+        "Keywords": "Bethel AME Ann Arbor-Original/Historical Location",
+        "Text": "The Bethel AME Church of Ann Arbor was an offshoot of the first Black church in Ann Arbor. The church was near campus in the Kerrytown district. Previous members have been people profiled in this project and I think its a good place of research into Black student life at the university.",
+        "Image": "",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7466818,
+          42.2864457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "216 Beakes St, Ann Arbor, MI 48104, USA",
+        "Date": "1865-1980",
+        "Keywords": "Second Baptist Church",
+        "Text": "Second Baptist Church is the oldest predominantly African American church in Ann Arbor and continues to serve the Black community today. African American students at the University of Michigan have worshipped, taught courses, and held events at this community gathering place.",
+        "Image": "https://drive.google.com/file/d/1Er01l-pqbVzBXcLVIamjoV_L0vNAvSx9/view?usp=sharing",
+        "Local_Image": "photos/Old Second Baptist Church 1953 aadl.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7460387,
+          42.2856627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "Literature Science and the Arts Building, 500 S State St, Ann Arbor, MI 48109, USA",
+        "Date": "9-Apr-68",
+        "Keywords": "Black Student Union Takeover\rAdministration Building",
+        "Text": "On April 9, 1968, the day of Martin Luther King, Jr.s burial in Atlanta, the Black Student Union chained themselves inside the Administration Building (now the LSA Building) for five hours demanding more black representation among students and faculty as well as more funding for black students. This instance led to the establishment of the Center for Afroamerican and African Studies in 1970.",
+        "Image": "https://drive.google.com/file/d/1Dc_5Pyg90WUBaM-POl96ok_6n8fk1N1s/view",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7412441,
+          42.2762537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "530 S State St, Ann Arbor, MI 48109, USA",
+        "Date": "15-Oct-68",
+        "Keywords": "1968 Homecoming Queen Discriminatory Questioning",
+        "Text": "Janice Parker, sister of Delta Sigma Theta and Homecoming Queen contestant was asked discriminatory questions by the Homecoming committee which led to her dropping from the competition. On this day, the committee issued a public apology.",
+        "Image": "https://drive.google.com/open?id=1AqR7ZEp7I50-EA3BteRx4sj6_s1n1ykK",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7415568,
+          42.2751833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "200 Observatory St, Ann Arbor, MI 48109, USA",
+        "Date": "",
+        "Keywords": "",
+        "Text": "",
+        "Image": "",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7313665,
+          42.2799921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "530 S State St, Ann Arbor, MI 48109, USA",
+        "Date": "11-Feb-47",
+        "Keywords": "Delta Sigma Theta",
+        "Text": "Delta Sigma Theta Sorority, Inc. Nu Chapter held a",
+        "Image": "",
+        "Local_Image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7418568,
+          42.2751833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "7994 Plymouth Rd, Ann Arbor, MI 48105, USA",
+        "Date": "Summer 1961",
+        "Keywords": "Ann Arbor Direct Action Committee\rBeach protest",
+        "Text": "In the summer of 1961, the owner of Murrays Lake Beach refused service to African American students. In response, the Ann Arbor Direct Action Club organized a protest against the owners discrimination. In their usual demonstration style, the AADAC conducted a six hour swim-in. The success of the AADACs protests motivated many racist business owners to either close or integrate.",
+        "Image": "https://drive.google.com/file/d/1wm4dVWp77UHiqvYrei4ZZ7a7ml68Jna5/view?usp=sharing",
+        "Local_Image": "photos/Murray Lake 5 July 08 flickr.com.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.606095,
+          42.334135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "204 S State St, Ann Arbor, MI 48109, USA",
+        "Date": "Fall 1921",
+        "Keywords": "Lane Hall\rYWCA, YMCA, SCA",
+        "Text": "Lane Hall, home to the Students Christian Association, was the site of an incident of discrimination against UM student Sara Pelham. Local pastor Lloyd Wallick refused to serve Pelham at Lane Halls lunch counter. Pelham raised tension about racial discrimination on campus, but the incident was pushed under the rug by the university.",
+        "Image": "https://drive.google.com/file/d/1rReZi2S-K7CRySoTxnJkC_Yy4zZYtVkP/view?usp=sharing",
+        "Local_Image": "photos/Sara Pelham, newspapers.com, 1935.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7412461,
+          42.2798975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "200 Observatory St, Ann Arbor, MI 48109, USA",
+        "Date": "1930 - present",
+        "Keywords": "Mosher-Jordan Hall\rEliza Mosher\rMyra Jordan",
+        "Text": "Completed in 1930-31, this was the first large womens dormitory on campus, planning to house 450 women. The residence originally operated as two separate halls serviced by a central kitchen. Archival evidence shows that once the university allowed African American women in dorms, most lived in Jordan Hall.",
+        "Image": "https://drive.google.com/file/d/1C8kC1oBTCQmiR2lup5gANB0U4e1X-7Fl/view?usp=sharing",
+        "Local_Image": "photos/Mosher-Jordan, umhistory.dc.umich.edu.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.731367,
+          42.2805016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "209 N 4th Ave, Ann Arbor, MI 48104, USA",
+        "Date": "1899",
+        "Keywords": "Kayser Block",
+        "Text": "This building was one of the earliest Black-owned commercial buildings in Ann Arbor. Built in 1899, it was first a hotel and later became the Colored Welfare League, an effort by Reverend Gilbert of Second Baptist Church to help African Americans find jobs and housing. Many found work in construction for the university. In 1923, Reverend Gilbert began the Dunbar Community Center at this site which hosted sleeping quarters, club meetings, and Black social events.",
+        "Image": "https://drive.google.com/file/d/16YQ-wZb7EEbaAdA362Gw8_rVRgvMkBz_/view?usp=sharing",
+        "Local_Image": "photos/Kayser Block, aadl.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7473925,
+          42.2826679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "1102 E Ann St, Ann Arbor, MI 48104, USA",
+        "Date": "1909, 1936",
+        "Keywords": "",
+        "Text": "",
+        "Image": "https://drive.google.com/file/d/1caUxSWjDbny257AxWKjdqnociLty-82T/view?usp=sharing",
+        "Local_Image": "photos/1102 E. Ann.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.735506,
+          42.2822445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "400 N State St, Ann Arbor, MI 48104, USA",
+        "Date": "1867",
+        "Keywords": "Old Fourth Ward",
+        "Text": "One of the first residential areas, the Fourth Ward was quickly known as the center of Ann Arbor. Over time, the demographics changed from the leading class to those receiving fewest resources. Newer districts had more growth so authorities often left the Fourth Ward out of developing infrastructure. A product of this was the closing of the de facto segregated Jones Elementary. Today, a plan to construct a hotel in the historic district provokes tension.",
+        "Image": "https://drive.google.com/file/d/1mioaVR3MzQl2EYv9ws2A29lqSDXw_C7Y/view?usp=sharing",
+        "Local_Image": "photos/Fourth Ward School, aadl.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7410453,
+          42.2838717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "105 S State St, Ann Arbor, MI 48104, USA",
+        "Date": "1905",
+        "Keywords": "Ann Arbor High School",
+        "Text": "The oldest high school in Ann Arbor was founded in 1856 but moved here in 1905. For years, AAHS provided the only local job opportunities for the many African American women who received teaching degrees at UM. In 1949, Virginia Ellis, School of Music masters student, performed with fellow Dunbar Center musicians in the auditorium. Eventually, the school relocated and the building was bought by the university for dormitories.",
+        "Image": "https://drive.google.com/file/d/1CdzINmSkiOVKpZfGBzb-jh0AH-hjW02A/view?usp=sharing",
+        "Local_Image": "photos/Ann Arbor High School 1905 Bentley.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7401692,
+          42.2805179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "326 Beakes St, Ann Arbor, MI 48104, USA",
+        "Date": "1920s & 30s",
+        "Keywords": "Black womens housing",
+        "Text": "The landlady at 326 Beakes, Eva McComas, housed African American women before UM integrated dorms and as Mosher-Jordan was being built. Her daughter Ruby was also an African American student at UM. Notable residents included Vivian Wilson, a Black student who was instrumental in the struggle to integrate dormitories, Frances Mary Cardozo, A.B. in education 31, and Lenoir Bertrice Smith, a founder of the Negro-Caucasian Club.",
+        "Image": "https://drive.google.com/file/d/1KPIrux0Ns3QWBMmIXp92jkBO76uvxpoF/view?usp=sharing",
+        "Local_Image": "photos/BeakesDetroitBroadwayintersectionBentley.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7445034,
+          42.286346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Address": "2220 Pittsfield Blvd, Ann Arbor, MI 48104, USA",
+        "Date": "1962",
+        "Keywords": "Pittsfield Village",
+        "Text": "At this location in 1962, African American citizens and students protested against housing discrimination. As part of the Fair Housing Movement, the Ann Arbor Fair Housing Association picketed all day every day at the Pittsfield Village apartment complex to demand change in housing. The owners were just some of many who openly discriminated against Black individuals.",
+        "Image": "https://drive.google.com/file/d/1uu5dNodX0zOKhs5tycyjWL-PNpruDX_6/view?usp=sharing",
+        "Local_Image": "photos/Pittsfield Village, aadl 1962.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6909743,
+          42.2550068
+        ]
+      }
+    }
+  ]
+}
