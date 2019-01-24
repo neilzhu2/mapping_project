@@ -49,44 +49,22 @@ http://localhost:8000/
 
 
 <body>
-    <div id="uploadPage">
-        <input id="inputFilePlace" type="file" name="file">
-        <button type="button" name="button" class="disabled">Generate</button>
+
+    <!-- time range slider -->
+    <div class="sliderDiv" >
+        <p>
+            <label for="amount">Time range for Accommodations:</label>
+            <input class="sliderValue" type="text" id="amount" >
+        </p>
+        <div id="slider-range"></div>
     </div>
 
+    <hr>
 
-    <!-- <div id="withData" class="hide"> -->
+    <h1>a few random locations in Ann Arbor<h1>
+    <h3>1992 - 2019</h3>
 
-        <!-- time range slider -->
-        <div class="sliderDiv" >
-            <p>
-                <label for="amount">Time range for Accommodations:</label>
-                <input class="sliderValue" type="text" id="amount" >
-            </p>
-            <div id="slider-range"></div>
-        </div>
-
-        <!-- checkboxes -->
-        <!-- <span class="filterCheckBox">
-            <label class="checkBoxContainer">Accommodations
-              <input type="checkbox" name="Accommodations" value="accommodation_markers" checked=true>
-              <span class="checkmark accommodation_marker"></span>
-            </label> -->
-            <!-- <label class="checkBoxContainer">Events
-              <input type="checkbox" name="Events"  value="event_markers" checked=true>
-              <span class="checkmark event_marker"></span>
-            </label> -->
-        </span>
-
-
-
-        <hr>
-
-        <h1 id="title"><h1>
-        <h3 id="subTitle"></h3>
-
-        <div id="map"></div>
-    <!-- </div> -->
+    <div id="map"></div>
 
 
 

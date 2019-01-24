@@ -36,23 +36,24 @@
 
 
     .sliderDiv{
-        display:inline-block;
-        width: 66%;
+        /* display:inline-block; */
+        width: 99%;
         height: 8%;
         margin-bottom: 5px;
         padding-left: 3%;
         /* margin-top: 25px; */
     }
 
-    .sliderDiv.narrow{
-        width: 30%;
-        padding-left: 0;
+    .sliderDiv p{
+        display:inline-block;
     }
 
-    #slider-opaque, #slider-range{
-        width: 90%;
+    #slider-range{
+        display:inline-block;
+        width: 68%;
+        top:.3em;
     }
-
+·
     .sliderValue{
         border:0;
         color:#4E91BE;
