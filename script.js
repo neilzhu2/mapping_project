@@ -9,23 +9,25 @@
     var mapPage = $('#withData');
 
 
-  //   var fileInput = document.querySelector('#inputFilePlace');
-  //   fileInput.addEventListener('change', (e)=>{
-  //       // uploadPage.addClass('hide');
-  //       // mapPage.removeClass('hide');
-  //       var f = e.target.files[0];
-  //
-  //       var reader = new FileReader();
-  //
-  //       reader.onload = (function(theFile) {
-  //           return function(e) {
-  //               GEOJSON = e.target.result;
-  //           };
-  //       })(f);
-  //
-  //     // // Read in the image file as a data URL.
-  //     // reader.readAsText(f);
-  // })
+    var fileInput = document.querySelector('#inputFilePlace');
+    fileInput.addEventListener('change', (e)=>{
+        // uploadPage.addClass('hide');
+        // mapPage.removeClass('hide');
+        var f = e.target.files[0];
+
+        var reader = new FileReader();
+
+        reader.onload = (function(theFile) {
+            return function(e) {
+                GEOJSON = e.target.result;
+            };
+        })(f);
+
+      // Read in the image file as a data URL.
+      reader.readAsText(f);
+
+      console.log(GEOJSON)
+  })
 
     var originalGeoJsonURL = "data/uploadedFile.geojson";
 
