@@ -53,8 +53,8 @@
         width: 68%;
         top:.3em;
     }
-·
-    .sliderValue{
+
+    input.sliderValue{
         border:0;
         color:#4E91BE;
         font-weight:bold;
