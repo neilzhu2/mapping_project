@@ -15,22 +15,12 @@
     }
 
 
-    .marker-cluster-large {
+    .marker-cluster-color {
         background-color: rgba(44, 127, 184, 0.6);
     }
 
-    .marker-cluster-large div {
+    .marker-cluster-color div {
         background-color: rgba(44, 127, 184, 0.6);
-    }
-
-
-
-    .marker-cluster-large_nav {
-        background-color: rgba(254, 143, 27, 0.6);
-    }
-
-    .marker-cluster-large_nav div {
-        background-color: rgba(254, 143, 27, 0.6);
     }
 
 
